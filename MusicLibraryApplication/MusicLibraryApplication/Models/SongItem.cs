@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MusicLibraryApplication.Models
+namespace MusicLibraryApplication.Model
 {
     public enum MusicGenre
     {
@@ -28,7 +28,7 @@ namespace MusicLibraryApplication.Models
         Unknown
     }
 
-    public class MusicItem
+    public class SongItem
     {
         public string SongTitle { get; set; }
         public string Artist { get; set; }
@@ -40,7 +40,7 @@ namespace MusicLibraryApplication.Models
         public string ImageFile { get; set; }
         public string AudioFile { get; set; }
 
-        public MusicItem(string songTitle, string artist, string albumName, string songLength, MusicGenre genre, DateTime releaseDate, string label)
+        public SongItem(string songTitle, string artist, string albumName, string songLength, MusicGenre genre, DateTime releaseDate, string label)
         {
             SongTitle = songTitle;
             Artist = artist;
@@ -56,4 +56,3 @@ namespace MusicLibraryApplication.Models
 
     }
 }
-
