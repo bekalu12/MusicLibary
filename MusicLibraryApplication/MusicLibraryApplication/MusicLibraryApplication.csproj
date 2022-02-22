@@ -158,7 +158,20 @@
       <Version>6.2.12</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Assets\Audio\Classical\" />
+    <Folder Include="Assets\Audio\Country\" />
+    <Folder Include="Assets\Audio\Electronic\" />
+    <Folder Include="Assets\Audio\Pop\" />
+    <Folder Include="Assets\Audio\Rap\" />
+    <Folder Include="Assets\Audio\Rock\" />
+    <Folder Include="Assets\Image\MusicLibrary\Classical\" />
+    <Folder Include="Assets\Image\MusicLibrary\Country\" />
+    <Folder Include="Assets\Image\MusicLibrary\Electronic\" />
+    <Folder Include="Assets\Image\MusicLibrary\Pop\" />
+    <Folder Include="Assets\Image\MusicLibrary\Rap\" />
+    <Folder Include="Assets\Image\MusicLibrary\Rock\" />
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
