@@ -8158,7 +8158,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\burro\\.nuget\\packages\\": {},
+    "C:\\Users\\crazy\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
@@ -8166,11 +8166,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\burro\\Documents\\GitHub\\MusicLibary\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj",
+      "projectUniqueName": "C:\\Users\\crazy\\source\\repos\\Music_Librry_original\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj",
       "projectName": "MusicLibraryApplication",
-      "projectPath": "C:\\Users\\burro\\Documents\\GitHub\\MusicLibary\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj",
-      "packagesPath": "C:\\Users\\burro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\burro\\Documents\\GitHub\\MusicLibary\\MusicLibraryApplication\\MusicLibraryApplication\\obj\\",
+      "projectPath": "C:\\Users\\crazy\\source\\repos\\Music_Librry_original\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj",
+      "packagesPath": "C:\\Users\\crazy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\crazy\\source\\repos\\Music_Librry_original\\MusicLibraryApplication\\MusicLibraryApplication\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8179,7 +8179,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\burro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\crazy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"

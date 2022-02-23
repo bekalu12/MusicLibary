@@ -10,6 +10,6 @@ namespace MusicLibraryApplication.Model
     public class MenuItem
     {
         public string Icon { get; set; }
-        public string MenuSelection { get; set; }
+        public MusicGenre MenuSelection { get; set; } // Need to change the data type to MusicGEnre
     }
 }
