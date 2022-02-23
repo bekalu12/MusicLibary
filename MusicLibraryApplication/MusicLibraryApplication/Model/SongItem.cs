@@ -11,6 +11,7 @@ namespace MusicLibraryApplication.Model
         Classical,
         Country,
         Electronic,
+        Jazz,
         Pop,
         Rap,
         Rock
@@ -31,7 +32,7 @@ namespace MusicLibraryApplication.Model
     public class SongItem
     {
         public string SongTitle { get; set; }
-        public string Artist { get; set; }
+        public string ArtistName { get; set; }
         public string AlbumName { get; set; }
         public string SongLength { get; set; }
         public MusicGenre Genre { get; set; }
@@ -43,13 +44,13 @@ namespace MusicLibraryApplication.Model
         public SongItem(string songTitle, string artist, string albumName, string songLength, MusicGenre genre, DateTime releaseDate, string label)
         {
             SongTitle = songTitle;
-            Artist = artist;
+            
+            ArtistName = artist; 
             AlbumName = albumName;
             SongLength = songLength;
             Genre = genre;
             ReleaseDate = releaseDate;
             Label = label;
-
             ImageFile = $"/Assets/Image/MusicLibrary/{Genre}/{SongTitle}.png";
             AudioFile = $"/Assets/Audio/{Genre}/{SongTitle}.mp3";
         }

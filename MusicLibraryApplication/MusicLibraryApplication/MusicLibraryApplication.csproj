@@ -122,10 +122,10 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\Helper.cs" />
-    <Compile Include="Models\MenuItem.cs" />
-    <Compile Include="Models\MusicManager.cs" />
-    <Compile Include="Models\SongItem.cs" />
+    <Compile Include="Model\Helper.cs" />
+    <Compile Include="Model\MenuItem.cs" />
+    <Compile Include="Model\MusicManager.cs" />
+    <Compile Include="Model\SongItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
