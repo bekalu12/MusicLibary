@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MusicLibraryApplication.Model
+namespace MusicLibraryApplication.Models
 {
     public static class MusicManager
     {
@@ -33,7 +33,7 @@ namespace MusicLibraryApplication.Model
         public static void GetMusicByArtist(ObservableCollection<SongItem> collection, string artist)
         {
             var allMusic = GetMusic();
-            var filteredMusic = allMusic.Where(item => item.Artist == artist).ToList();
+            var filteredMusic = allMusic.Where(item => item.ArtistName == artist).ToList();
             collection.Clear();
 
             filteredMusic.ForEach(item => collection.Add(item));

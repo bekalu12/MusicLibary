@@ -5,7 +5,7 @@ using System.Collections.ObjectModel;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MusicLibraryApplication.Model
+namespace MusicLibraryApplication.Models
 {
     public static class Helper
     {
