@@ -1,9 +1,11 @@
-﻿using System;
+﻿using MusicAppLib.Models;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace MusicLibraryApplication.Model
 {
@@ -56,6 +58,15 @@ namespace MusicLibraryApplication.Model
             musicCollection.Add(new SongItem("American Woman", "Lenny Kravitz", "Austin Powers: The Spy Who Shagged Me", "4:21", MusicGenre.Rock, new DateTime(1999, 05, 10), "Virgin"));
 
             return musicCollection;
+        }
+
+        private static void GetMusicTags(ObservableCollection<SongItem> collection, MusicGenre genre)
+        {
+           
+            Metadata tag = new Metadata();
+            tag.ReadFileMetaData();
+
+
         }
     }
 }

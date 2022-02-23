@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\crazy\\source\\repos\\Music_Librry_original\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj": {}
+    "C:\\Users\\crazy\\source\\repos\\Music_Library\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\crazy\\source\\repos\\Music_Librry_original\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj": {
+    "C:\\Users\\crazy\\source\\repos\\Music_Library\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\crazy\\source\\repos\\Music_Librry_original\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj",
+        "projectUniqueName": "C:\\Users\\crazy\\source\\repos\\Music_Library\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj",
         "projectName": "MusicLibraryApplication",
-        "projectPath": "C:\\Users\\crazy\\source\\repos\\Music_Librry_original\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj",
+        "projectPath": "C:\\Users\\crazy\\source\\repos\\Music_Library\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj",
         "packagesPath": "C:\\Users\\crazy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\crazy\\source\\repos\\Music_Librry_original\\MusicLibraryApplication\\MusicLibraryApplication\\obj\\",
+        "outputPath": "C:\\Users\\crazy\\source\\repos\\Music_Library\\MusicLibraryApplication\\MusicLibraryApplication\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

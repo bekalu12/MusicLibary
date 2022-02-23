@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Navigation;
 using System.Collections;
 using System.Collections.ObjectModel;
 using MusicLibraryApplication.Model;
+using MusicAppLib.Models;
 
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -35,6 +36,8 @@ namespace MusicLibraryApplication
         {
 
             this.InitializeComponent();
+            Metadata tag = new Metadata();
+            tag.ReadFileMetaData();
 
             //Yassmin : Read all the music files into observable collection 
 

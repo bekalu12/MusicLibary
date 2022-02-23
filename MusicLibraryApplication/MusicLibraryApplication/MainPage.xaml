@@ -67,14 +67,14 @@
                               ItemsSource="{x:Bind Musics}"
                               ItemClick="ListOfMusic_ItemClick">
                     <GridView.ItemTemplate>
-                        <DataTemplate x:DataType="data:Music">
+                        <DataTemplate x:DataType="data:SongItem">
                             <StackPanel Orientation="Horizontal"
                                         HorizontalAlignment="Stretch"
                                         VerticalAlignment="Stretch"
                                         Margin="0,10,0,10" >
                                 <Image Name="MusicImage" Height="60"
                                        Width="60" Source="{x:Bind ImageFile}" />
-                                <TextBlock Text="{x:Bind Singer}" FontSize="18"
+                                <TextBlock Text="{x:Bind ArtistName}" FontSize="18"
                                            Margin="10,10,0,0"/>
                                 <CheckBox Name="CheckBox"
                                           VerticalAlignment="Top"
@@ -95,7 +95,7 @@
                           ItemsSource="{x:Bind Musics}"
                           ItemClick="MyCollection_ItemClick">
                     <GridView.ItemTemplate>
-                        <DataTemplate x:DataType="data:Music">
+                        <DataTemplate x:DataType="data:SongItem">
                             <StackPanel Orientation="Horizontal"
                                         HorizontalAlignment="Stretch"
                                         Visibility="Collapsed"
@@ -104,7 +104,7 @@
                                 <Image Name="MusicImage"
                                        Height="60" Width="60"
                                        Source="{x:Bind ImageFile}"/>
-                                <TextBlock Text="{x:Bind Singer}"
+                                <TextBlock Text="{x:Bind ArtistName}"
                                            FontSize="18" 
                                            Margin="10,10,0,0"/>
                             </StackPanel>
@@ -118,14 +118,14 @@
                   Name="ListCategory" Visibility="Visible">
                 <ListView Name="CategoryList"
                           IsItemClickEnabled="True" 
-                          ItemsSource="{x:Bind MusicMenus}"
+                          ItemsSource="{x:Bind MenuItem}"
                           ItemClick="CategoryList_ItemClick">
                     <ListView.ItemTemplate>
-                        <DataTemplate x:DataType="data:MusicMenu">
+                        <DataTemplate x:DataType="data:MenuItem">
                             <StackPanel Margin="0,10,0,10">
-                                <Image Source="{x:Bind ImageIcone}" Height="45"
+                                <Image Source="{x:Bind Icon}" Height="45"
                                        Width="45" Margin="-10,0,0,0"/>
-                                <TextBlock Text="{x:Bind MusicCategory}" FontSize="18"
+                                <TextBlock Text="{x:Bind MenuSelection}" FontSize="18"
                                            Margin="10,10,0,0"/>
                             </StackPanel>
                         </DataTemplate>

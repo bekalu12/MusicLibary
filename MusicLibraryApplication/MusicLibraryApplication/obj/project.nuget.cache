@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qOyqHvxNPIKXGxBuIYcsNNuqLFi5myvLjIU8CCPWlysrrIkL1rbZSF+Cbb5qqrG5WA1hqqWy3DQXLAWaIXMvTg==",
+  "dgSpecHash": "yRBpfyirW/34EgigEBwBVpoTsP6O+pq1XGLSZPbVw2XCUVTmZ0dDYB1bNEQQ0Bzkoe05P2KiFtbdWGlyLQDU5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\crazy\\source\\repos\\Music_Librry_original\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj",
+  "projectFilePath": "C:\\Users\\crazy\\source\\repos\\Music_Library\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

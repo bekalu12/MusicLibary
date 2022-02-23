@@ -25,7 +25,7 @@ namespace MusicAppLib.Models
         public void ReadFileMetaData()
         {
 
-            string path = @"C:\Users\crazy\source\repos\GitHubRepos\MusicApp\Music_Library\zeft\Assets\Music\Classical\song1.mp3";
+            string path = @"C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\song1.mp3";
 
             using (FileStream fs = File.OpenRead(path))
             {
@@ -39,8 +39,8 @@ namespace MusicAppLib.Models
                     fs.Read(tag.Artist, 0, tag.Artist.Length);
                     fs.Read(tag.Album, 0, tag.Album.Length);
                     fs.Read(tag.Year, 0, tag.Year.Length);
-                    fs.Read(tag.Comment, 0, tag.Comment.Length);
-                    fs.Read(tag.Genre, 0, tag.Genre.Length);
+   //                 fs.Read(tag.Comment, 0, tag.Comment.Length);
+  //                  fs.Read(tag.Genre, 0, tag.Genre.Length);
                     string theTAGID = Encoding.Default.GetString(tag.TAGID);
 
                     if (theTAGID.Equals("TAG"))
