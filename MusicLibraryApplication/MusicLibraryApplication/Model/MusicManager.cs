@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MusicLibraryApplication.Models
+namespace MusicLibraryApplication.Model
 {
     public static class MusicManager
     {
