@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-BSOGK11</Machine>
+    <WindowsUser>bekal</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>74c39ff0-f226-4bbd-b2c3-7bb6b36926b6</PackageIdentityName>
+    <PackageIdentityPublisher>CN=bekal</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>457B05B9DE4EA994A3A4FFD7045421549E01A208FE6E627E49DC5C6FDD466784</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>74c39ff0-f226-4bbd-b2c3-7bb6b36926b6_1.0.0.0_x64__392g711scdgn6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>74c39ff0-f226-4bbd-b2c3-7bb6b36926b6_392g711scdgn6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>74c39ff0-f226-4bbd-b2c3-7bb6b36926b6</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=bekal</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-02-24T04:57:59.013</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Debug\MusicLibraryApplication.exe">
+      <PackagePath>entrypoint\MusicLibraryApplication.exe</PackagePath>
+      <Modified>2022-02-24T04:57:58.451</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2021-02-05T09:15:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2020-12-02T12:52:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\song1.mp3">
+      <PackagePath>Assets\Audio\Classical\song1.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\song2.mp3">
+      <PackagePath>Assets\Audio\Classical\song2.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\song3.mp3">
+      <PackagePath>Assets\Audio\Classical\song3.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\song3.mp3">
+      <PackagePath>Assets\Audio\Country\song3.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\song4.mp3">
+      <PackagePath>Assets\Audio\Country\song4.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\song5.mp3">
+      <PackagePath>Assets\Audio\Country\song5.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\song7.mp3">
+      <PackagePath>Assets\Audio\Jazz\song7.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\song8.mp3">
+      <PackagePath>Assets\Audio\Jazz\song8.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\song17.mp3">
+      <PackagePath>Assets\Audio\Electronic\song17.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\song18.mp3">
+      <PackagePath>Assets\Audio\Electronic\song18.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\song10.mp3">
+      <PackagePath>Assets\Audio\Pop\song10.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\song12.mp3">
+      <PackagePath>Assets\Audio\Pop\song12.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\song9.mp3">
+      <PackagePath>Assets\Audio\Pop\song9.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\song13.mp3">
+      <PackagePath>Assets\Audio\Rap\song13.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\song14.mp3">
+      <PackagePath>Assets\Audio\Rap\song14.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\song15.mp3">
+      <PackagePath>Assets\Audio\Rap\song15.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\song16.mp3">
+      <PackagePath>Assets\Audio\Rap\song16.mp3</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Classical\Classic.png">
+      <PackagePath>Assets\Image\MusicLibrary\Classical\Classic.png</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Pop\pop_1.png">
+      <PackagePath>Assets\Image\MusicLibrary\Pop\pop_1.png</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Rap\Rap.png">
+      <PackagePath>Assets\Image\MusicLibrary\Rap\Rap.png</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Rock\Albums.png">
+      <PackagePath>Assets\Image\MusicLibrary\Rock\Albums.png</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Rock\Favourite.png">
+      <PackagePath>Assets\Image\MusicLibrary\Rock\Favourite.png</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Rock\images.png">
+      <PackagePath>Assets\Image\MusicLibrary\Rock\images.png</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Rock\image_!.png">
+      <PackagePath>Assets\Image\MusicLibrary\Rock\image_!.png</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Rock\Recent Playlist.png">
+      <PackagePath>Assets\Image\MusicLibrary\Rock\Recent Playlist.png</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Rock\Regional.png">
+      <PackagePath>Assets\Image\MusicLibrary\Rock\Regional.png</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Classical\Classic_2.jpg">
+      <PackagePath>Assets\Image\MusicLibrary\Classical\Classic_2.jpg</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Country\Country_1jpg.jpg">
+      <PackagePath>Assets\Image\MusicLibrary\Country\Country_1jpg.jpg</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Country\Country_2.jpg">
+      <PackagePath>Assets\Image\MusicLibrary\Country\Country_2.jpg</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Jazz\Jazz_2.jpg">
+      <PackagePath>Assets\Image\MusicLibrary\Jazz\Jazz_2.jpg</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Jazz\Jazz_3.jpg">
+      <PackagePath>Assets\Image\MusicLibrary\Jazz\Jazz_3.jpg</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Rock\Notes_2.jpg">
+      <PackagePath>Assets\Image\MusicLibrary\Rock\Notes_2.jpg</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Rock\notes_3jpg.jpg">
+      <PackagePath>Assets\Image\MusicLibrary\Rock\notes_3jpg.jpg</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Assets\Image\MusicLibrary\Rock\pngtree-brown-music-player-illustration-image_1409091.jpg">
+      <PackagePath>Assets\Image\MusicLibrary\Rock\pngtree-brown-music-player-illustration-image_1409091.jpg</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2022-02-23T22:40:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Debug\MusicLibraryApplication.xr.xml">
+      <PackagePath>MusicLibraryApplication.xr.xml</PackagePath>
+      <Modified>2022-02-24T02:59:11.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2022-02-24T04:57:58.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2022-02-24T04:57:58.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2020-12-02T10:52:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2022-02-24T04:43:13.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Debug\Core\MusicLibraryApplication.exe">
+      <PackagePath>MusicLibraryApplication.exe</PackagePath>
+      <Modified>2022-02-24T04:57:59.007</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

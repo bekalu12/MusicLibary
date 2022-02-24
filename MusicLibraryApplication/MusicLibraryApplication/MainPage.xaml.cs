@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Navigation;
 using System.Collections;
 using System.Collections.ObjectModel;
 using MusicLibraryApplication.Model;
-using MusicAppLib.Models;
+
 
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -31,7 +31,7 @@ namespace MusicLibraryApplication
 
         // Yassmin: the right menu that has the music category list displayed , when the user chooses a category all the songs under this list will be loaded 
 
-        private List<MenuItem> MenuItem; 
+        private List<MenuItem> MenuItems; 
         public MainPage()
         {
 
@@ -45,38 +45,38 @@ namespace MusicLibraryApplication
             MusicManager.GetAllMusic(Musics);
 
             //Yassmin: Load all the music category list to the right menu 
-            MenuItem = new List<MenuItem>();
-            MenuItem.Add(new MenuItem
+            MenuItems = new List<MenuItem>();
+            MenuItems.Add(new MenuItem
             {
                 Icon = $"Assets/Image/MusicLibrary/Classical/Classical.png",// Yassmin : the name of the icon needs to be changed based on the final icons we use and their names 
                 MenuSelection = MusicGenre.Classical // Yassmin : I had to convert it toString untill Michelle changes the menuItem from string to MusicGenre
             }) ;
 
-            MenuItem.Add(new MenuItem
+            MenuItems.Add(new MenuItem
             {
                 Icon = $"Assets/Image/MusicLibrary/Country/Country.png",// Yassmin : the name of the icon needs to be changed based on the final icons we use and their names 
                 MenuSelection = MusicGenre.Country// Yassmin : I had to convert it toString untill Michelle changes the menuItem from string to MusicGenre
 
             }) ;
-            MenuItem.Add(new MenuItem
+            MenuItems.Add(new MenuItem
             {
                 Icon = $"Assets/Image/MusicLibrary/Electronic/Electronic.png",// Yassmin : the name of the icon needs to be changed based on the final icons we use and their names 
                 MenuSelection = MusicGenre.Electronic// Yassmin : I had to convert it toString untill Michelle changes the menuItem from string to MusicGenre
 
             });
-            MenuItem.Add(new MenuItem
+            MenuItems.Add(new MenuItem
             {
                 Icon = $"Assets/Image/MusicLibrary/Pop/Pop.png",// Yassmin : the name of the icon needs to be changed based on the final icons we use and their names 
                 MenuSelection = MusicGenre.Pop// Yassmin : I had to convert it toString untill Michelle changes the menuItem from string to MusicGenre
 
             });
-            MenuItem.Add(new MenuItem
+            MenuItems.Add(new MenuItem
             {
                 Icon = $"Assets/Image/MusicLibrary/Rap/Rap.png",// Yassmin : the name of the icon needs to be changed based on the final icons we use and their names 
                 MenuSelection = MusicGenre.Rap// Yassmin : I had to convert it toString untill Michelle changes the menuItem from string to MusicGenre
 
             });
-            MenuItem.Add(new MenuItem
+            MenuItems.Add(new MenuItem
             {
                 Icon = $"Assets/Image/MusicLibrary/Rock/Rock.png",// Yassmin : the name of the icon needs to be changed based on the final icons we use and their names 
                 MenuSelection = MusicGenre.Rock// Yassmin : I had to convert it toString untill Michelle changes the menuItem from string to MusicGenre
@@ -105,5 +105,34 @@ namespace MusicLibraryApplication
         {
             // I need to store all checked items in a list or collection 
         }
+        private void CategoryList_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            var menuItem = (MenuItem)e.ClickedItem;
+            //Yassmin : expected that the texbock of the musics page changed to be the Genre 
+            MusicManager.GetMusicByCategory(Musics, menuItem.MenuSelection);
+
+        }
+        private void MyCollection_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            var menuItem = (MenuItem)e.ClickedItem;
+            //Yassmin : expected that the texbock of the musics page changed to be the Genre 
+            MusicManager.GetMusicByCategory(Musics, menuItem.MenuSelection);
+
+        }
+
+        private void MyCollectio_Click(object sender, RoutedEventArgs e)
+        {
+            // I need to store all checked items in a list or collection 
+        }
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            // I need to store all checked items in a list or collection 
+            MusicManager.GetAllMusic(Musics);
+            CategoryList.SelectedItem = null;
+            // 
+            BackButton.Visibility = Visibility.Collapsed;
+        }
+
     }
+    
 }

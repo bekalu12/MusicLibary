@@ -118,7 +118,7 @@
                   Name="ListCategory" Visibility="Visible">
                 <ListView Name="CategoryList"
                           IsItemClickEnabled="True" 
-                          ItemsSource="{x:Bind MenuItem}"
+                          ItemsSource="{x:Bind MenuItems}"
                           ItemClick="CategoryList_ItemClick">
                     <ListView.ItemTemplate>
                         <DataTemplate x:DataType="data:MenuItem">
