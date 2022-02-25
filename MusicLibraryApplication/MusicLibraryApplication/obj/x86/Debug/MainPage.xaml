@@ -17,39 +17,38 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         
-        
-        <TextBlock Text="Welcome to Music Library Application"
-                   Foreground="DarkBlue"
-                   FontSize="24"  VerticalAlignment="Center" 
-                   HorizontalAlignment="Center"
-                   Margin="0,0,10,0"/>
-        
         <RelativePanel Grid.Row="0" Background="White" >
             <Image x:ConnectionId='20' Name="Logo"
                    Source="/Assets/Images/logo.png"
                    MaxHeight="45"
                    Margin="0 0 500 0"
-                   RelativePanel.LeftOf="MyCollectio"/>
+                   RelativePanel.AlignLeftWithPanel="True"/>
             <TextBlock x:ConnectionId='21' Text="Categories" 
                        Name="CategoryListText"
                        HorizontalTextAlignment="Center"
                        Width="150"
                        FontSize="20"
+                       FontFamily="Calibri"
+                       Foreground="DarkBlue"
                        RelativePanel.AlignRightWithPanel="True"
                        Margin="0,10,10,0">
             </TextBlock>
             <Button x:ConnectionId='22' Name="MyCollectio" 
-                    RelativePanel.LeftOf="CategoryListText"                   
+                    RelativePanel.LeftOf="BackButton"                   
                     Height="45"
-                    Width="100"
-                    Content="createCollection"
+                    Width="150"
+                    FontSize="15"
+                    FontFamily="Calibri"
+                    Foreground="DarkBlue"
+                    Content="Create Collection"
                                              />
             <Button x:ConnectionId='23' Name="BackButton" 
-                    RelativePanel.AlignLeftWithPanel="True"
+                    RelativePanel.LeftOf="CategoryListText"
                     FontFamily="Segoe MDL2 Assets"
                     Height="45"
                     Width="45"
-                    Content="&#xE0A6;"
+                    Content="&#xE0AD;"
+                    Foreground="DarkBlue"
                                             />
         </RelativePanel>
 
@@ -71,30 +70,37 @@
 
                 <MediaElement x:ConnectionId='8' Name="MusicMedia" 
                               AutoPlay="True" />
-
+                
                 <GridView x:ConnectionId='9' Grid.Row="0" 
                           Background="White"
                           Name="ListOfMusic" 
                           IsItemClickEnabled="True"
                           SelectionMode="None"
                                                        
-                                                           >
-
+                                                           
+                          HorizontalAlignment="Left">
+                    
                     <GridView.ItemTemplate>
                         <DataTemplate                           >
                             <StackPanel x:ConnectionId='16' Orientation="Horizontal"
-                                        HorizontalAlignment="Stretch"
-                                        VerticalAlignment="Stretch"
-                                        Margin="0,10,0,10" >
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Center"
+                                        Margin="0" >
                                 <Image x:ConnectionId='17' Name="MusicImage" 
-                                       Height="60"
-                                       Width="60" 
+                                       HorizontalAlignment="Left"
+                                       VerticalAlignment="Center"
+                                       Height="40"
+                                       Width="40" 
                                                                    />
                                 <TextBlock x:ConnectionId='18'                           
+                                           HorizontalAlignment="Left"
+                                           VerticalAlignment="Center"
                                            FontSize="18"
-                                           Margin="10,10,0,0"/>
+                                           FontFamily="Calibri"
+                                           Foreground="DarkBlue"
+                                           Margin="0 10 10 10"/>
                                 <CheckBox Name="CheckBox"
-                                          VerticalAlignment="Top"
+                                          VerticalAlignment="Center"
                                           HorizontalAlignment="Left"
                                           Width="10" Height="10">
                                     <!-- Click="CheckBox_Click" Checked="CheckBox_Click" -->
@@ -115,15 +121,22 @@
                     <GridView.ItemTemplate>
                         <DataTemplate                           >
                             <StackPanel x:ConnectionId='12' Orientation="Horizontal"
-                                        HorizontalAlignment="Stretch"
+                                        HorizontalAlignment="Left"
                                         Visibility="Collapsed"
                                         VerticalAlignment="Stretch"
                                         Margin="0,10,0,10" >
                                 <Image x:ConnectionId='13' Name="MusicImage"
-                                       Height="60" Width="60"
+                                       Height="60" 
+                                       Width="60"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Left"
                                                                   />
                                 <TextBlock x:ConnectionId='14'                           
-                                           FontSize="18" 
+                                           FontSize="18"
+                                           FontFamily="Calibri"
+                                           Foreground="DarkCyan"
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Left"
                                            Margin="10,10,0,0"/>
                             </StackPanel>
                         </DataTemplate>
@@ -133,22 +146,30 @@
 
             <RelativePanel x:ConnectionId='2' Name="ListCategory"
                            Grid.Column="1" 
-                           Background="Gainsboro"
+                           Background="White"
                            Visibility="Visible">
                 <ListView x:ConnectionId='3' Name="CategoryList"
                           IsItemClickEnabled="True"
                                                           
-                                                            >
+                                                            
+                          RelativePanel.AlignHorizontalCenterWithPanel="True">
                     <ListView.ItemTemplate>
                         <DataTemplate                           >
-                            <StackPanel x:ConnectionId='5' Margin="0,10,0,10">
+                            <StackPanel x:ConnectionId='5' Margin="10"
+                                        HorizontalAlignment="Center">
                                 <Image x:ConnectionId='6'                        
                                        Height="45"
-                                       Width="45" 
-                                       Margin="-10,0,0,0"/>
+                                       Width="45"
+                                       HorizontalAlignment="Left"
+                                       VerticalAlignment="Center"
+                                       Margin="0"/>
                                 <TextBlock x:ConnectionId='7'                               
                                            FontSize="18"
-                                           Margin="10,10,0,0"/>
+                                           FontFamily="Calibri"
+                                           Foreground="DarkBlue"
+                                           HorizontalAlignment="Left"
+                                           VerticalAlignment="Center"
+                                           Margin="0"/>
                             </StackPanel>
                         </DataTemplate>
                     </ListView.ItemTemplate>
