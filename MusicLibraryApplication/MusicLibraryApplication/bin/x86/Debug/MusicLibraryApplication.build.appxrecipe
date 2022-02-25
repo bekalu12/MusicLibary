@@ -37,32 +37,32 @@
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Albums.png">
       <PackagePath>Assets\Albums.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Images\Genres\Classical.png">
-      <PackagePath>Images\Genres\Classical.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Classical.png">
+      <PackagePath>Assets\Images\Genres\Classical.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Images\Genres\Country.png">
-      <PackagePath>Images\Genres\Country.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Country.png">
+      <PackagePath>Assets\Images\Genres\Country.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Images\Genres\Electronic.png">
-      <PackagePath>Images\Genres\Electronic.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Electronic.png">
+      <PackagePath>Assets\Images\Genres\Electronic.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Images\Genres\Jazz.png">
-      <PackagePath>Images\Genres\Jazz.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Jazz.png">
+      <PackagePath>Assets\Images\Genres\Jazz.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Images\Genres\Pop.png">
-      <PackagePath>Images\Genres\Pop.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Pop.png">
+      <PackagePath>Assets\Images\Genres\Pop.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Images\Genres\Rap.png">
-      <PackagePath>Images\Genres\Rap.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Rap.png">
+      <PackagePath>Assets\Images\Genres\Rap.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Images\Genres\Rock.png">
-      <PackagePath>Images\Genres\Rock.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Rock.png">
+      <PackagePath>Assets\Images\Genres\Rock.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Images\logo.png">
-      <PackagePath>Images\logo.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\logo.png">
+      <PackagePath>Assets\Images\logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Images\MusicNote.png">
-      <PackagePath>Images\MusicNote.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\MusicNote.png">
+      <PackagePath>Assets\Images\MusicNote.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

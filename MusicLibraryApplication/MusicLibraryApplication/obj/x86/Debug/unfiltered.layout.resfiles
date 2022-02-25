@@ -17,6 +17,15 @@ Assets\Audio\Rap\Harvest Moon.mp3
 Assets\Audio\Rap\Heart Of Gold.mp3
 Assets\Audio\Rock\song16.mp3
 Assets\Audio\Rock\Unknown.mp3
+Assets\Images\Genres\Classical.png
+Assets\Images\Genres\Country.png
+Assets\Images\Genres\Electronic.png
+Assets\Images\Genres\Jazz.png
+Assets\Images\Genres\Pop.png
+Assets\Images\Genres\Rap.png
+Assets\Images\Genres\Rock.png
+Assets\Images\logo.png
+Assets\Images\MusicNote.png
 Assets\LockScreenLogo.scale-200.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
@@ -27,13 +36,4 @@ Assets\Wide310x150Logo.scale-200.png
 App.xbf
 MainPage.xbf
 MusicLibraryApplication.xr.xml
-Images\Genres\Classical.png
-Images\Genres\Country.png
-Images\Genres\Electronic.png
-Images\Genres\Jazz.png
-Images\Genres\Pop.png
-Images\Genres\Rap.png
-Images\Genres\Rock.png
-Images\logo.png
-Images\MusicNote.png
 Properties\Default.rd.xml
