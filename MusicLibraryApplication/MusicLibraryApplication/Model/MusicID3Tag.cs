@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace MusicAppLib.Models
+namespace MusicLibraryApplication.Model
 {
     class MusicID3Tag
     {
