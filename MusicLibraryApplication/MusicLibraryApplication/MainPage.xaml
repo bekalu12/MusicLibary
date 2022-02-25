@@ -18,7 +18,7 @@
         </Grid.RowDefinitions>
         
         <TextBlock Text="WellCome to Music Library Application"
-                   Foreground="Purple"
+                   Foreground="DarkBlue"
                    FontSize="24"  VerticalAlignment="Center" 
                    HorizontalAlignment="Center"
                    Margin="0,0,10,0"/>

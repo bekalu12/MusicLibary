@@ -65,7 +65,6 @@ namespace MusicLibraryApplication.Model
         private static List<SongItem> GetMusic()
         {
             var musicCollection = new List<SongItem>();
-            //  musicCollection.Add(new SongItem("American Woman", "Lenny Kravitz", "Austin Powers: The Spy Who Shagged Me", "4:21", MusicGenre.Rock, new DateTime(1999, 05, 10), "Virgin"));
             musicCollection.Add(new SongItem("Strangers in the night", "Frank Sinatra "," Greatest Hits",MusicGenre.Classical));
             musicCollection.Add(new SongItem("I'll Be Home for Christmas", "Michael Buble ", " Let It Snow", MusicGenre.Classical));
             musicCollection.Add(new SongItem("I Get A Kick Out Of You", "Michael Buble ", " Let It Snow", MusicGenre.Classical));
