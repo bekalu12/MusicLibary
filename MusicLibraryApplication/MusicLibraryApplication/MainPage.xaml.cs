@@ -110,7 +110,7 @@ namespace MusicLibraryApplication
 
             string selectedSong = e.ToString();
             SelectedMusic = new ObservableCollection<SongItem>();
-            SelectedMusic.Add(new SongItem(selectedSong));
+            //SelectedMusic.Add(new SongItem(selectedSong));
         }
 
 

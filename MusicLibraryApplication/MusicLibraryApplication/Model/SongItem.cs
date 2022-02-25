@@ -42,7 +42,7 @@ namespace MusicLibraryApplication.Model
         public string ImageFile { get; set; }
         public string AudioFile { get; set; }
 
-        public SongItem(string songTitle, string artist, string albumName, string songLength, MusicGenre genre, DateTime releaseDate, string label)
+     /*   public SongItem(string songTitle, string artist, string albumName, string songLength, MusicGenre genre, DateTime releaseDate, string label)
         {
             SongTitle = songTitle;
             
@@ -55,10 +55,13 @@ namespace MusicLibraryApplication.Model
             ImageFile = $"/Assets/Image/MusicLibrary/{Genre}/{SongTitle}.png";
             AudioFile = $"/Assets/Audio/{Genre}/{SongTitle}.mp3";
         }
-
-        public SongItem (string name)
+     */
+        public SongItem (string name, string artist, string albumName, MusicGenre genre)
         {
             SongTitle = name;
+            Genre = genre;
+            ImageFile = $"/Assets/Image/Albums.png";
+            AudioFile = $"/Assets/Audio/{Genre}/{SongTitle}.mp3";
 
         }
     }
