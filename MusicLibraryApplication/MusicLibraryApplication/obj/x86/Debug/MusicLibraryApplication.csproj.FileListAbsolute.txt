@@ -9,3 +9,15 @@ C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryAp
 C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\App.xbf
 C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\MainPage.xbf
 C:\Users\bekal\Downloads\MusicLibary-main\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\MusicLibraryApplication.csproj.AssemblyReference.cache
+C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\App.g.i.cs
+C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\App.g.cs
+C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\MainPage.g.cs
+C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\App.xaml
+C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\MainPage.xaml
+C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\App.xbf
+C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\MainPage.xbf
+C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\MusicLibraryApplication.csproj.CoreCompileInputs.cache
