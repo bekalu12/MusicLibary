@@ -29,6 +29,8 @@ namespace MusicLibraryApplication
     {
         private ObservableCollection<SongItem> Musics; // List that has all music files loaded 
 
+        private ObservableCollection<SongItem> SelectedMusic; // to the selected music of user collection 
+
         // Yassmin: the right menu that has the music category list displayed , when the user chooses a category all the songs under this list will be loaded 
 
         private List<MenuItem> MenuItem; 
@@ -101,9 +103,33 @@ namespace MusicLibraryApplication
 
         }
 
+
         private void CheckBox_Click(object sender, RoutedEventArgs e)
         {
-            // I need to store all checked items in a list or collection 
+            // when the check box is checked , the item selected is added to the observable collection of selected item 
+
+            string selectedSong = e.ToString();
+            SelectedMusic = new ObservableCollection<SongItem>();
+            SelectedMusic.Add(new SongItem(selectedSong));
         }
+
+
+        /// <summary>
+        ///  when the check box is unchceked , remove it from the collection of added songs 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void CheckBox_Click_unchecked(object sender, RoutedEventArgs e)
+        {
+             string selectedSong = e.ToString();
+             SelectedMusic.Remove(SelectedMusic.Where( i => i.SongTitle== selectedSong).Single());
+        }
+
+        private void Button_Click(Object sender, EventArgs e)
+        {
+            //loadig new page with some text boxes to add the data of the song file   
+        }
+
     }
+
 }

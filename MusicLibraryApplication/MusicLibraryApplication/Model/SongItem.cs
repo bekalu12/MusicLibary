@@ -55,5 +55,10 @@ namespace MusicLibraryApplication.Model
             AudioFile = $"/Assets/Audio/{Genre}/{SongTitle}.mp3";
         }
 
+        public SongItem (string name)
+        {
+            SongTitle = name;
+
+        }
     }
 }
