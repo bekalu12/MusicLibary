@@ -502,7 +502,6 @@ C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryAp
 C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\obj\x64\Release\ilc\intermediate\Resources\System.Runtime.WindowsRuntime.UI.Xaml.index.txt
 C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\obj\x64\Release\ilc\intermediate\rhbindargs.MusicLibraryApplication.rsp
 C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\obj\x64\Release\ilc\intermediate\System.Private.MusicLibraryApplication.Generated.dll
-C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\obj\x64\Release\MusicLibraryApplication.csproj.AssemblyReference.cache
 C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Release\ilc\Assets\Albums.png
 C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\obj\x64\Release\ilc\in\Assets\Albums.png
 C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Release\ilc\Assets\Audio\Classical\I Get A Kick Out Of You.mp3

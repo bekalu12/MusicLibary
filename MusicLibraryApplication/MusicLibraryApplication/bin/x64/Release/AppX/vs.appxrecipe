@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-25T08:21:31.347</Modified>
+      <Modified>2022-02-25T08:51:18.522</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -146,19 +146,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Release\ilc\MusicLibraryApplication.dll">
       <PackagePath>MusicLibraryApplication.dll</PackagePath>
-      <Modified>2022-02-25T08:21:31.155</Modified>
+      <Modified>2022-02-25T08:51:18.344</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Release\ilc\MusicLibraryApplication.exe">
       <PackagePath>MusicLibraryApplication.exe</PackagePath>
-      <Modified>2022-02-25T08:21:31.335</Modified>
+      <Modified>2022-02-25T08:51:18.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Release\ilc\MusicLibraryApplication.pdb">
       <PackagePath>MusicLibraryApplication.pdb</PackagePath>
-      <Modified>2022-02-25T08:21:31.303</Modified>
+      <Modified>2022-02-25T08:51:18.477</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-25T08:21:19.784</Modified>
+      <Modified>2022-02-25T08:51:07.053</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

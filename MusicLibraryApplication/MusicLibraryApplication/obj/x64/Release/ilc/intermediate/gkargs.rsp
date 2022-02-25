@@ -2,6 +2,6 @@
 /Lib:"C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\obj\x64\Release\ilc\in"
 /Lib:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.2.10-rel-29722-00\tools\x64\ilc\lib\Private"
 /WinMD:"C:\Users\crazy\source\repos\Music_Library\MusicLibraryApplication\MusicLibraryApplication\obj\x64\Release\ilc\in\WinMetadata\Windows.winmd"
-/VSTelemetrySessionSettings:"{\"IsOptedIn\":true,\"HostName\":\"Dev14\",\"AppInsightsInstrumentationKey\":\"f144292e-e3b2-4011-ac90-20e5c03fbce5\",\"AsimovInstrumentationKey\":\"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70\",\"AppId\":1001,\"UserId\":\"5bfbbd92-0119-4dad-affa-33a26e69e065\",\"Id\":\"a5975d1b-8056-464f-94d6-cf918734888c\",\"ProcessStartTime\":637813596560609834}"
+/VSTelemetrySessionSettings:"{\"IsOptedIn\":true,\"HostName\":\"Dev14\",\"AppInsightsInstrumentationKey\":\"f144292e-e3b2-4011-ac90-20e5c03fbce5\",\"AsimovInstrumentationKey\":\"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70\",\"AppId\":1001,\"UserId\":\"5bfbbd92-0119-4dad-affa-33a26e69e065\",\"Id\":\"54351979-33bb-4ec7-b9ff-f8f9096270e1\",\"ProcessStartTime\":637813754449153416}"
 /RdXmlPath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.2.10-rel-29722-00\tools\LibraryXML"
 /RunOnlyPreDR
