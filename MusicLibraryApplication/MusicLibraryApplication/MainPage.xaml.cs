@@ -50,48 +50,45 @@ namespace MusicLibraryApplication
             MenuItems = new List<MenuItem>();
             MenuItems.Add(new MenuItem
             {
-                Icon = $"Assets/Image/MusicLibrary/Classical/Classic.png",// Yassmin : the name of the icon needs to be changed based on the final icons we use and their names 
-                MenuSelection = MusicGenre.Classical // Yassmin : I had to convert it toString untill Michelle changes the menuItem from string to MusicGenre
+                Icon = $"Assets/Images/Genres/Classical.png",
+                MenuSelection = MusicGenre.Classical
             });
 
             MenuItems.Add(new MenuItem
             {
-                Icon = $"Assets/Image/MusicLibrary/Country/Country_2.jpg",// Yassmin : the name of the icon needs to be changed based on the final icons we use and their names 
-                MenuSelection = MusicGenre.Country// Yassmin : I had to convert it toString untill Michelle changes the menuItem from string to MusicGenre
+                Icon = $"Assets/Images/Genres/Country.png",
+                MenuSelection = MusicGenre.Country
 
             });
             MenuItems.Add(new MenuItem
             {
-                Icon = $"Assets/Image/MusicLibrary/Electronic/Electronic.png",// Yassmin : the name of the icon needs to be changed based on the final icons we use and their names 
-                MenuSelection = MusicGenre.Electronic// Yassmin : I had to convert it toString untill Michelle changes the menuItem from string to MusicGenre
+                Icon =$"Assets/Images/Genres/Electronic.png",
+                MenuSelection = MusicGenre.Electronic
 
             });
             MenuItems.Add(new MenuItem
             {
-                Icon = $"Assets/Image/MusicLibrary/Pop/pop_1.png",// Yassmin : the name of the icon needs to be changed based on the final icons we use and their names 
-                MenuSelection = MusicGenre.Pop// Yassmin : I had to convert it toString untill Michelle changes the menuItem from string to MusicGenre
+                Icon =$"Assets/Images/Genres/Jazz.png",
+                MenuSelection = MusicGenre.Pop
 
             });
             MenuItems.Add(new MenuItem
             {
-                Icon = $"Assets/Image/MusicLibrary/Rap/Rap.png",// Yassmin : the name of the icon needs to be changed based on the final icons we use and their names 
-                MenuSelection = MusicGenre.Rap// Yassmin : I had to convert it toString untill Michelle changes the menuItem from string to MusicGenre
+                Icon = $"Assets/Images/Genres/Pop.png",
+                MenuSelection = MusicGenre.Rap
 
             });
             MenuItems.Add(new MenuItem
             {
-                Icon = $"Assets/Image/MusicLibrary/Rock/images.png",// Yassmin : the name of the icon needs to be changed based on the final icons we use and their names 
-                MenuSelection = MusicGenre.Rock// Yassmin : I had to convert it toString untill Michelle changes the menuItem from string to MusicGenre
+                Icon = $"Assets/Images/Genres/Rap.png",
+                MenuSelection = MusicGenre.Rock
 
             });
-            /*    MenuItem.Add(new MenuItem    // Yassmin : for tge JAZZ if it is added 
-                {
-                    Icon = $"Assets/Image/MusicLibrary/Rap/Rap.png",
+            MenuItems.Add( new MenuItem
+            {
+                    Icon = $"Assets/Images/Genres/Rock.png",
                     MenuSelection = MusicGenre.Rap
-                });
-            */
-
-
+            });
 
         }
 
