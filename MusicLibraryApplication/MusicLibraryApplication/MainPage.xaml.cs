@@ -107,7 +107,9 @@ namespace MusicLibraryApplication
         }
 
         // Yassmin :  when the check box is checked , the selected songs are put in a collection
-        private void CheckBox_Click(object sender, RoutedEventArgs e)
+      
+        /*
+         private void CheckBox_Click(object sender, RoutedEventArgs e)
         {
             // when the check box is checked , the item selected is added to the observable collection of selected item 
 
@@ -116,7 +118,7 @@ namespace MusicLibraryApplication
             MusicManager.GetMusicByTitle(SelectedMusic, selectedSong);
 
         }
-
+        */
 
 
         /// Yassmin :  when the check box is unchceked , remove it from the collection of added songs 
@@ -147,7 +149,10 @@ namespace MusicLibraryApplication
         private void MyCollectio_Click(object sender, RoutedEventArgs e)
         {
             // I need to store all checked items in a list or collection 
-            // I have created SelectedMusic collection , but loaed it with the data when the checkbox is checked 
+          
+            string selectedSong = e.ToString();
+            SelectedMusic = new ObservableCollection<SongItem>();
+            MusicManager.GetMusicByTitle(SelectedMusic, selectedSong);
         }
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
