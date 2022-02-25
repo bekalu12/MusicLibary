@@ -3,8 +3,12 @@
     "",
     "\\MusicLibraryApplication",
     "\\MusicLibraryApplication\\MusicLibraryApplication",
+    "\\MusicLibraryApplication\\MusicLibraryApplication\\Assets",
+    "\\MusicLibraryApplication\\MusicLibraryApplication\\Assets\\Audio",
+    "\\MusicLibraryApplication\\MusicLibraryApplication\\Assets\\Images",
+    "\\MusicLibraryApplication\\MusicLibraryApplication\\Assets\\Images\\Genres",
     "\\MusicLibraryApplication\\MusicLibraryApplication\\Model"
   ],
-  "SelectedNode": "\\MusicLibraryApplication\\MusicLibraryApplication\\Model\\MusicID3Tag.cs",
+  "SelectedNode": "\\MusicLibraryApplication\\MusicLibraryApplication.sln",
   "PreviewInSolutionExplorer": false
 }
