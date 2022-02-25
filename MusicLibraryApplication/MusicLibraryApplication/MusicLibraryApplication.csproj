@@ -153,6 +153,15 @@
     <Content Include="Assets\Audio\Rap\Heart Of Gold.mp3" />
     <Content Include="Assets\Audio\Rock\Unknown.mp3" />
     <Content Include="Assets\Audio\Rock\song16.mp3" />
+    <Content Include="Images\Genres\Classical.png" />
+    <Content Include="Images\Genres\Country.png" />
+    <Content Include="Images\Genres\Electronic.png" />
+    <Content Include="Images\Genres\Jazz.png" />
+    <Content Include="Images\Genres\Pop.png" />
+    <Content Include="Images\Genres\Rap.png" />
+    <Content Include="Images\Genres\Rock.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\MusicNote.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -177,16 +186,7 @@
       <Version>6.2.12</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\Image\MusicLibrary\Classical\" />
-    <Folder Include="Assets\Image\MusicLibrary\Country\" />
-    <Folder Include="Assets\Image\MusicLibrary\Electronic\" />
-    <Folder Include="Assets\Image\MusicLibrary\Jazz\" />
-    <Folder Include="Assets\Image\MusicLibrary\Pop\" />
-    <Folder Include="Assets\Image\MusicLibrary\Rap\" />
-    <Folder Include="Assets\Image\MusicLibrary\Rock\" />
-    <Folder Include="Assets\Logos\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
