@@ -102,11 +102,12 @@
                                 <CheckBox Name="CheckBox"
                                           VerticalAlignment="Center"
                                           HorizontalAlignment="Left"
-                                          Width="10" Height="10">
-                                    <!-- Click="CheckBox_Click" Checked="CheckBox_Click" -->
+                                          Width="10" Height="10"
+                                          Click="CheckBox_Click" 
+                                          Checked="CheckBox_Click" />
 
 
-                                </CheckBox>
+
                             </StackPanel>
                         </DataTemplate>
                     </GridView.ItemTemplate>
@@ -116,7 +117,7 @@
                           Name="MyCollection"
                           IsItemClickEnabled="True"
                           SelectionMode="None"
-                          ItemsSource="{x:Bind Musics}"
+                          ItemsSource="{x:Bind SelectedMusic}"
                           ItemClick="MyCollection_ItemClick">
                     <GridView.ItemTemplate>
                         <DataTemplate x:DataType="data:SongItem">

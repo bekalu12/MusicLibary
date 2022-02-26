@@ -38,12 +38,13 @@ namespace MusicLibraryApplication
         {
 
             this.InitializeComponent();
-            //Metadata tag = new Metadata();
-            //tag.ReadFileMetaData();
+      
 
             //Yassmin : Read all the music files into observable collection 
 
             Musics = new ObservableCollection<SongItem>();
+            SelectedMusic = new ObservableCollection<SongItem>();
+
             MusicManager.GetAllMusic(Musics);
 
             //Yassmin: Load all the music category list to the right menu 
@@ -62,13 +63,13 @@ namespace MusicLibraryApplication
             });
             MenuItems.Add(new MenuItem
             {
-                Icon =$"Assets/Images/Genres/Electronic.png",
+                Icon = $"Assets/Images/Genres/Electronic.png",
                 MenuSelection = MusicGenre.Electronic
 
             });
             MenuItems.Add(new MenuItem
             {
-                Icon =$"Assets/Images/Genres/Jazz.png",
+                Icon = $"Assets/Images/Genres/Jazz.png",
                 MenuSelection = MusicGenre.Pop
 
             });
@@ -84,46 +85,36 @@ namespace MusicLibraryApplication
                 MenuSelection = MusicGenre.Rock
 
             });
-            MenuItems.Add( new MenuItem
+            MenuItems.Add(new MenuItem
             {
-                    Icon = $"Assets/Images/Genres/Rock.png",
-                    MenuSelection = MusicGenre.Rap
+                Icon = $"Assets/Images/Genres/Rock.png",
+                MenuSelection = MusicGenre.Rap
             });
 
         }
 
         private void ListOfMusic_ItemClick(object sender, ItemClickEventArgs e)
         {
-            var menuItem = (MenuItem)e.ClickedItem;
-            //Yassmin : expected that the texbock of the musics page changed to be the Genre 
-
-            MusicManager.GetMusicByCategory(Musics, menuItem.MenuSelection);
-
-
-
+            var mySelectedSong = (SongItem)e.ClickedItem;
+            MusicManager.GetMusicByTitle(SelectedMusic, mySelectedSong.SongTitle);
+          
         }
 
         // Yassmin :  when the check box is checked , the selected songs are put in a collection
-      
-        /*
-         private void CheckBox_Click(object sender, RoutedEventArgs e)
+
+
+        private void CheckBox_Click(object sender, RoutedEventArgs e)
         {
             // when the check box is checked , the item selected is added to the observable collection of selected item 
 
-            string selectedSong = e.ToString();
-            SelectedMusic = new ObservableCollection<SongItem>();
-            MusicManager.GetMusicByTitle(SelectedMusic, selectedSong);
-
         }
-        */
+
 
 
         /// Yassmin :  when the check box is unchceked , remove it from the collection of added songs 
 
         private void CheckBox_Click_unchecked(object sender, RoutedEventArgs e)
         {
-            string selectedSong = e.ToString();
-            SelectedMusic.Remove(SelectedMusic.Where(i => i.SongTitle == selectedSong).Single());
         }
 
 
@@ -137,19 +128,15 @@ namespace MusicLibraryApplication
 
         private void MyCollection_ItemClick(object sender, ItemClickEventArgs e)
         {
-            var menuItem = (MenuItem)e.ClickedItem;
+            var title = e.ClickedItem.ToString();
             //Yassmin : expected that the texbock of the musics page changed to be the Genre 
-            MusicManager.GetMusicByCategory(Musics, menuItem.MenuSelection);
+            MusicManager.GetMusicByTitle(SelectedMusic, title);
 
         }
 
         private void MyCollectio_Click(object sender, RoutedEventArgs e)
         {
             // I need to store all checked items in a list or collection 
-          
-            string selectedSong = e.ToString();
-            SelectedMusic = new ObservableCollection<SongItem>();
-            MusicManager.GetMusicByTitle(SelectedMusic, selectedSong);
         }
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
