@@ -1,1 +1,1 @@
-C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\MusicLibraryApplication.csproj;x86
+C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\MusicLibraryApplication.csproj;x86
