@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MusicLibraryApplication",
-    "\\MusicLibraryApplication\\MusicLibraryApplication",
-    "\\MusicLibraryApplication\\MusicLibraryApplication\\Model"
+    "\\MusicLibraryApplication"
   ],
-  "SelectedNode": "\\MusicLibraryApplication\\MusicLibraryApplication\\Model\\MusicID3Tag.cs",
+  "SelectedNode": "\\MusicLibraryApplication\\MusicLibraryApplication.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -60,7 +60,7 @@ namespace MusicLibraryApplication.Model
         {
             SongTitle = name;
             Genre = genre;
-            ImageFile = $"/Assets/Image/Albums.png";
+            ImageFile = $"/Assets/Images/MusicNote.png";
             AudioFile = $"/Assets/Audio/{Genre}/{SongTitle}.mp3";
 
         }
