@@ -55,6 +55,8 @@
       <RootProperty Name="Children" />
       <RootProperty Name="Orientation" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
@@ -75,6 +77,8 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="TextAlignment" />
       <RootProperty Name="Name" />
       <RootProperty Name="HorizontalTextAlignment" />
       <RootProperty Name="Width" />
