@@ -65,24 +65,24 @@ namespace MusicLibraryApplication.Model
         private static List<SongItem> GetMusic()
         {
             var musicCollection = new List<SongItem>();
-            musicCollection.Add(new SongItem("Strangers in the night", "Frank Sinatra "," Greatest Hits",MusicGenre.Classical));
-            musicCollection.Add(new SongItem("I'll Be Home for Christmas", "Michael Buble ", " Let It Snow", MusicGenre.Classical));
-            musicCollection.Add(new SongItem("I Get A Kick Out Of You", "Michael Buble ", " Let It Snow", MusicGenre.Classical));
+            musicCollection.Add(new SongItem("Strangers In The Night", "Frank Sinatra ","Greatest Hits", MusicGenre.Classical));
+            musicCollection.Add(new SongItem("I'll Be Home for Christmas", "Michael Buble", "Let It Snow", MusicGenre.Classical));
+            musicCollection.Add(new SongItem("I Get A Kick Out Of You", "Michael Buble", "Let It Snow", MusicGenre.Classical));
 
 
-            musicCollection.Add(new SongItem("Akon - Beautiful", "Akon", " Unknown", MusicGenre.Country));
-            musicCollection.Add(new SongItem("Song3", "Unknown ", " Unknown", MusicGenre.Country));
-            musicCollection.Add(new SongItem("If I were a boy remix", "Beyonce ", " Unknown", MusicGenre.Country));
+            musicCollection.Add(new SongItem("Beautiful", "Akon", "Unknown", MusicGenre.Country));
+            musicCollection.Add(new SongItem("Song3", "Unknown ", "Unknown", MusicGenre.Country));
+            musicCollection.Add(new SongItem("If I Were A Boy (remix)", "Beyonce", "Unknown", MusicGenre.Country));
 
-            musicCollection.Add(new SongItem("A Day To Be Alone", "One Less Reason", " Everydaylife", MusicGenre.Pop));
-            musicCollection.Add(new SongItem("Marry Me", "Train ", " Save Me SanFransisco", MusicGenre.Pop));
-            musicCollection.Add(new SongItem("Unknown", "Unknown ", " Unknown", MusicGenre.Pop));
+            musicCollection.Add(new SongItem("A Day To Be Alone", "One Less Reason", "Everydaylife", MusicGenre.Pop));
+            musicCollection.Add(new SongItem("Marry Me", "Train", "Save Me San Fransisco", MusicGenre.Pop));
+            musicCollection.Add(new SongItem("Unknown", "Unknown ", "Unknown", MusicGenre.Pop));
 
-            musicCollection.Add(new SongItem("Harvest Moon", "Neil Young", " Harvest Moon", MusicGenre.Rap));
-            musicCollection.Add(new SongItem("Heart Of Gold", "Neil Young" ,"Unknown", MusicGenre.Rap));
+            musicCollection.Add(new SongItem("Harvest Moon", "Neil Young", "Harvest Moon", MusicGenre.Rap));
+            musicCollection.Add(new SongItem("Heart Of Gold", "Neil Young","Unknown", MusicGenre.Rap));
 
-            musicCollection.Add(new SongItem("Unknown", "Unknown ", " Unknown", MusicGenre.Rock));
-            musicCollection.Add(new SongItem("Flight Attendant", "JOSH ROUSE ", " Unknown", MusicGenre.Rock));
+            musicCollection.Add(new SongItem("Unknown", "Unknown ", "Unknown", MusicGenre.Rock));
+            musicCollection.Add(new SongItem("Flight Attendant", "Josh Rouse", "Unknown", MusicGenre.Rock));
 
             return musicCollection;
         }
