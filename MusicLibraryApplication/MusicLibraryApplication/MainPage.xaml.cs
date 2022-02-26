@@ -34,6 +34,9 @@ namespace MusicLibraryApplication
         // Yassmin: the right menu that has the music category list displayed , when the user chooses a category all the songs under this list will be loaded 
        
         private List<MenuItem> MenuItems;
+        private List<ArtistMenuItem> ArtistMenuItems;
+        private List<DecadeMenuItem> DecadeMenuItems;
+
         public MainPage()
         {
 
@@ -47,19 +50,17 @@ namespace MusicLibraryApplication
           
             MusicManager.GetAllMusic(Musics);
 
-            //Yassmin: Load all the music category list to the right menu 
+            // Genre Menu Items
             MenuItems = new List<MenuItem>();
             MenuItems.Add(new MenuItem
             {
                 Icon = $"Assets/Images/Genres/Classical.png",
                 MenuSelection = MusicGenre.Classical
             });
-
             MenuItems.Add(new MenuItem
             {
                 Icon = $"Assets/Images/Genres/Country.png",
                 MenuSelection = MusicGenre.Country
-
             });
             MenuItems.Add(new MenuItem
             {
@@ -71,20 +72,16 @@ namespace MusicLibraryApplication
             {
                 Icon = $"Assets/Images/Genres/Jazz.png",
                 MenuSelection = MusicGenre.Jazz
-
             });
             MenuItems.Add(new MenuItem
             {
                 Icon = $"Assets/Images/Genres/Pop.png",
                 MenuSelection = MusicGenre.Pop
-
-
             });
             MenuItems.Add(new MenuItem
             {
                 Icon = $"Assets/Images/Genres/Rap.png",
                 MenuSelection = MusicGenre.Rap
-
             });
             MenuItems.Add(new MenuItem
             {
@@ -92,6 +89,96 @@ namespace MusicLibraryApplication
                 MenuSelection = MusicGenre.Rock
             });
 
+            // Artist Menu Items
+            ArtistMenuItems = new List<ArtistMenuItem>();
+            ArtistMenuItems.Add(new ArtistMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                ArtistName = "Akon"
+            });
+            ArtistMenuItems.Add(new ArtistMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                ArtistName = "Beyonce"
+            });
+            ArtistMenuItems.Add(new ArtistMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                ArtistName = "Michael Buble"
+            });
+            ArtistMenuItems.Add(new ArtistMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                ArtistName = "One Less Reason"
+            });
+            ArtistMenuItems.Add(new ArtistMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                ArtistName = "Christina Perri"
+            });
+            ArtistMenuItems.Add(new ArtistMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                ArtistName = "Josh Rouse"
+            });
+            ArtistMenuItems.Add(new ArtistMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                ArtistName = "Frank Sinatra"
+            });
+            ArtistMenuItems.Add(new ArtistMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                ArtistName = "Train"
+            });
+            ArtistMenuItems.Add(new ArtistMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                ArtistName = "Neil Young"
+            });
+            ArtistMenuItems.Add(new ArtistMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                ArtistName = "Hans Zimmer"
+            });
+
+            // Decade Music Items
+            DecadeMenuItems = new List<DecadeMenuItem>();
+            DecadeMenuItems.Add(new DecadeMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                Decade = Decades.Sixies
+            });
+            DecadeMenuItems.Add(new DecadeMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                Decade = Decades.Seventies
+            });
+            DecadeMenuItems.Add(new DecadeMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                Decade = Decades.Eighties
+            });
+            DecadeMenuItems.Add(new DecadeMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                Decade = Decades.Ninties
+            });
+            DecadeMenuItems.Add(new DecadeMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                Decade = Decades.Aughts
+            });
+            DecadeMenuItems.Add(new DecadeMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                Decade = Decades.Teens
+            });
+            DecadeMenuItems.Add(new DecadeMenuItem
+            {
+                Icon = $"Assets/Images/placeholder",
+                Decade = Decades.Twenties
+            });
         }
 
         private void ListOfMusic_ItemClick(object sender, ItemClickEventArgs e)
@@ -100,9 +187,6 @@ namespace MusicLibraryApplication
             MusicManager.GetMusicByTitle(SelectedMusic, mySelectedSong.SongTitle);
           
         }
-
-        // Yassmin :  when the check box is checked , the selected songs are put in a collection
-
 
 
         private void CategoryList_ItemClick(object sender, ItemClickEventArgs e)
@@ -136,6 +220,10 @@ namespace MusicLibraryApplication
 
         }
 
+        private void HamButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 
 }

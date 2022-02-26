@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-KSPTPGF</Machine>
-    <WindowsUser>crazy</WindowsUser>
+    <Machine>LAPTOP-JO6C9M53</Machine>
+    <WindowsUser>burro</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>74c39ff0-f226-4bbd-b2c3-7bb6b36926b6</PackageIdentityName>
     <PackageIdentityPublisher>CN=bekal</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.exe">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.exe">
       <PackagePath>entrypoint\MusicLibraryApplication.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,133 +34,133 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Albums.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Albums.png">
       <PackagePath>Assets\Albums.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Classical.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Classical.png">
       <PackagePath>Assets\Images\Genres\Classical.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Country.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Country.png">
       <PackagePath>Assets\Images\Genres\Country.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Electronic.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Electronic.png">
       <PackagePath>Assets\Images\Genres\Electronic.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Jazz.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Jazz.png">
       <PackagePath>Assets\Images\Genres\Jazz.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Pop.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Pop.png">
       <PackagePath>Assets\Images\Genres\Pop.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Rap.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Rap.png">
       <PackagePath>Assets\Images\Genres\Rap.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Rock.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Rock.png">
       <PackagePath>Assets\Images\Genres\Rock.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\logo.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\logo.png">
       <PackagePath>Assets\Images\logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\MusicNote.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\MusicNote.png">
       <PackagePath>Assets\Images\MusicNote.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\Strangers in the night.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\Strangers in the night.mp3">
       <PackagePath>Assets\Audio\Classical\Strangers in the night.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3">
       <PackagePath>Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I Get A Kick Out Of You.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I Get A Kick Out Of You.mp3">
       <PackagePath>Assets\Audio\Classical\I Get A Kick Out Of You.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\song3.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\song3.mp3">
       <PackagePath>Assets\Audio\Country\song3.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Akon - Beautiful.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Akon - Beautiful.mp3">
       <PackagePath>Assets\Audio\Country\Akon - Beautiful.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\If I were a boy remix.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\If I were a boy remix.mp3">
       <PackagePath>Assets\Audio\Country\If I were a boy remix.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Jar of Heaerts.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Jar of Heaerts.mp3">
       <PackagePath>Assets\Audio\Jazz\Jar of Heaerts.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Hey, Soul Siste.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Hey, Soul Siste.mp3">
       <PackagePath>Assets\Audio\Jazz\Hey, Soul Siste.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Antything Can Happen.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Antything Can Happen.mp3">
       <PackagePath>Assets\Audio\Electronic\Antything Can Happen.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Light My Fire.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Light My Fire.mp3">
       <PackagePath>Assets\Audio\Electronic\Light My Fire.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\A Day To Be Alone.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\A Day To Be Alone.mp3">
       <PackagePath>Assets\Audio\Pop\A Day To Be Alone.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\Marry Me.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\Marry Me.mp3">
       <PackagePath>Assets\Audio\Pop\Marry Me.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\song9.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\song9.mp3">
       <PackagePath>Assets\Audio\Pop\song9.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Harvest Moon.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Harvest Moon.mp3">
       <PackagePath>Assets\Audio\Rap\Harvest Moon.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Heart Of Gold.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Heart Of Gold.mp3">
       <PackagePath>Assets\Audio\Rap\Heart Of Gold.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Flight Attendan.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Flight Attendan.mp3">
       <PackagePath>Assets\Audio\Rock\Flight Attendan.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\song16.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\song16.mp3">
       <PackagePath>Assets\Audio\Rock\song16.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.xr.xml">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.xr.xml">
       <PackagePath>MusicLibraryApplication.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Core\MusicLibraryApplication.exe">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Core\MusicLibraryApplication.exe">
       <PackagePath>MusicLibraryApplication.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

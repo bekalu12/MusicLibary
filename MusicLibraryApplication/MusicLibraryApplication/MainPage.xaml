@@ -24,21 +24,10 @@
                    Margin="0 0 500 0"
                    RelativePanel.AlignLeftWithPanel="True"/>
 
-            <TextBlock Name="CategoryListText"
-                       Text="Categories"
-                       HorizontalTextAlignment="Center"
-                       Width="130"
-                       FontSize="20"
-                       FontFamily="Calibri"
-                       FontWeight="Bold"
-                       Foreground="DarkBlue"
-                       
-                       RelativePanel.AlignRightWithPanel="True"
-                       Margin="0,10,0,0">
-            </TextBlock>
+            
 
-                <Button Name="MyCollectio" 
-                    RelativePanel.LeftOf="BackButton"                   
+            <Button Name="MyCollectio" 
+                    RelativePanel.LeftOf="SearchBy"                   
                     Height="45"
                     Width="150"
                     FontSize="15"
@@ -71,8 +60,123 @@
                 </Button.Resources>
             </Button>
 
+            <TextBlock Name="SearchBy"
+                       Text="Search By:"
+                       HorizontalTextAlignment="Center"
+                       Width="100"
+                       FontSize="20"
+                       FontFamily="Calibri"
+                       FontWeight="Bold"
+                       Foreground="DarkBlue"
+                       RelativePanel.LeftOf="ByGenre"
+                       Margin="0,10,0,0">
+
+            </TextBlock>
+
+            <Button Name="ByGenre" 
+                    RelativePanel.LeftOf="ByArtist"                   
+                    Height="45"
+                    Width="80"
+                    FontSize="15"
+                    FontFamily="Calibri"
+                    Foreground="DarkBlue"
+                    Background="Transparent"
+                    FontWeight="Bold"
+                    BorderBrush="Transparent"
+                    BorderThickness="0"
+                    Padding="0"
+                    Content="Genre"
+                    Click="MyCollectio_Click">
+                <Button.Resources>
+                    <ResourceDictionary>
+                        <ResourceDictionary.ThemeDictionaries>
+                            <ResourceDictionary x:Key="Dark">
+                                <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="DarkCyan"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="White"/>
+                                <SolidColorBrush x:Key="ButtonForegroundPressed" Color="LightSeaGreen"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="White"/>
+                            </ResourceDictionary>
+                            <ResourceDictionary x:Key="Light">
+                                <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="DarkCyan"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="White"/>
+                                <SolidColorBrush x:Key="ButtonForegroundPressed" Color="LightSeaGreen"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="White"/>
+                            </ResourceDictionary>
+                        </ResourceDictionary.ThemeDictionaries>
+                    </ResourceDictionary>
+                </Button.Resources>
+            </Button>
+
+            <Button Name="ByArtist" 
+                    RelativePanel.LeftOf="ByDecade"                   
+                    Height="45"
+                    Width="80"
+                    FontSize="15"
+                    FontFamily="Calibri"
+                    Foreground="DarkBlue"
+                    Background="Transparent"
+                    FontWeight="Bold"
+                    BorderBrush="Transparent"
+                    BorderThickness="0"
+                    Padding="0"
+                    Content="Artist"
+                    Click="MyCollectio_Click">
+                <Button.Resources>
+                    <ResourceDictionary>
+                        <ResourceDictionary.ThemeDictionaries>
+                            <ResourceDictionary x:Key="Dark">
+                                <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="DarkCyan"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="White"/>
+                                <SolidColorBrush x:Key="ButtonForegroundPressed" Color="LightSeaGreen"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="White"/>
+                            </ResourceDictionary>
+                            <ResourceDictionary x:Key="Light">
+                                <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="DarkCyan"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="White"/>
+                                <SolidColorBrush x:Key="ButtonForegroundPressed" Color="LightSeaGreen"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="White"/>
+                            </ResourceDictionary>
+                        </ResourceDictionary.ThemeDictionaries>
+                    </ResourceDictionary>
+                </Button.Resources>
+            </Button>
+
+            <Button Name="ByDecade" 
+                    RelativePanel.LeftOf="BackButton"                   
+                    Height="45"
+                    Width="80"
+                    FontSize="15"
+                    FontFamily="Calibri"
+                    Foreground="DarkBlue"
+                    Background="Transparent"
+                    FontWeight="Bold"
+                    BorderBrush="Transparent"
+                    BorderThickness="0"
+                    Padding="0"
+                    Content="Decade"
+                    Click="MyCollectio_Click">
+                <Button.Resources>
+                    <ResourceDictionary>
+                        <ResourceDictionary.ThemeDictionaries>
+                            <ResourceDictionary x:Key="Dark">
+                                <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="DarkCyan"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="White"/>
+                                <SolidColorBrush x:Key="ButtonForegroundPressed" Color="LightSeaGreen"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="White"/>
+                            </ResourceDictionary>
+                            <ResourceDictionary x:Key="Light">
+                                <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="DarkCyan"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="White"/>
+                                <SolidColorBrush x:Key="ButtonForegroundPressed" Color="LightSeaGreen"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="White"/>
+                            </ResourceDictionary>
+                        </ResourceDictionary.ThemeDictionaries>
+                    </ResourceDictionary>
+                </Button.Resources>
+            </Button>
+
             <Button Name="BackButton" 
-                    RelativePanel.LeftOf="CategoryListText"
+                    RelativePanel.LeftOf="HamButton"
                     FontFamily="Segoe MDL2 Assets"
                     Height="45"
                     Width="45"
@@ -81,6 +185,36 @@
                     Background="White"
                     BorderThickness="0"
                     Click="BackButton_Click">
+                <Button.Resources>
+                    <ResourceDictionary>
+                        <ResourceDictionary.ThemeDictionaries>
+                            <ResourceDictionary x:Key="Dark">
+                                <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="DarkCyan"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="White"/>
+                                <SolidColorBrush x:Key="ButtonForegroundPressed" Color="LightSeaGreen"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="White"/>
+                            </ResourceDictionary>
+                            <ResourceDictionary x:Key="Light">
+                                <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="DarkCyan"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="White"/>
+                                <SolidColorBrush x:Key="ButtonForegroundPressed" Color="LightSeaGreen"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="White"/>
+                            </ResourceDictionary>
+                        </ResourceDictionary.ThemeDictionaries>
+                    </ResourceDictionary>
+                </Button.Resources>
+            </Button>
+
+            <Button Name="HamButton" 
+                    RelativePanel.AlignRightWithPanel="True"
+                    FontFamily="Segoe MDL2 Assets"
+                    Height="45"
+                    Width="45"
+                    Content="&#xE700;"
+                    Foreground="DarkBlue"
+                    Background="White"
+                    BorderThickness="0"
+                    Click="HamButton_Click">
                 <Button.Resources>
                     <ResourceDictionary>
                         <ResourceDictionary.ThemeDictionaries>

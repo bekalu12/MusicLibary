@@ -122,6 +122,8 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\ArtistMenuItem.cs" />
+    <Compile Include="Model\DecadeMenuItem.cs" />
     <Compile Include="Model\Helper.cs" />
     <Compile Include="Model\MenuItem.cs" />
     <Compile Include="Model\MusicID3Tag.cs" />

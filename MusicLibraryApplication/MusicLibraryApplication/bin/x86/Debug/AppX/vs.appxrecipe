@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-KSPTPGF</Machine>
-    <WindowsUser>crazy</WindowsUser>
+    <Machine>LAPTOP-JO6C9M53</Machine>
+    <WindowsUser>burro</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>74c39ff0-f226-4bbd-b2c3-7bb6b36926b6</PackageIdentityName>
     <PackageIdentityPublisher>CN=bekal</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>B8C97936CB9A4595E9CFE21177419C43AF563C0C140097BE6512FF11BBA30D86</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>A29EFB25C35361A68D07B0B87893277A679CFB2DB7FBF06B2C8EE004D2AFC695</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>74c39ff0-f226-4bbd-b2c3-7bb6b36926b6_1.0.0.0_x86__392g711scdgn6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>74c39ff0-f226-4bbd-b2c3-7bb6b36926b6_392g711scdgn6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>74c39ff0-f226-4bbd-b2c3-7bb6b36926b6</RegisteredPackageID>
@@ -27,194 +27,194 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T19:00:51.824</Modified>
+      <Modified>2022-02-26T23:06:29.746</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.exe">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.exe">
       <PackagePath>entrypoint\MusicLibraryApplication.exe</PackagePath>
-      <Modified>2022-02-26T19:00:51.388</Modified>
+      <Modified>2022-02-26T23:06:29.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2021-02-05T08:15:46.000</Modified>
+      <Modified>2021-02-05T09:15:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2020-12-02T11:52:00.000</Modified>
+      <Modified>2020-12-02T12:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Albums.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Albums.png">
       <PackagePath>Assets\Albums.png</PackagePath>
-      <Modified>2022-02-26T18:02:28.877</Modified>
+      <Modified>2022-02-25T16:45:21.927</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Classical.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Classical.png">
       <PackagePath>Assets\Images\Genres\Classical.png</PackagePath>
-      <Modified>2022-02-26T18:02:29.665</Modified>
+      <Modified>2022-02-24T21:48:44.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Country.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Country.png">
       <PackagePath>Assets\Images\Genres\Country.png</PackagePath>
-      <Modified>2022-02-26T18:02:29.666</Modified>
+      <Modified>2022-02-24T21:51:42.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Electronic.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Electronic.png">
       <PackagePath>Assets\Images\Genres\Electronic.png</PackagePath>
-      <Modified>2022-02-26T18:02:29.666</Modified>
+      <Modified>2022-02-24T21:44:31.429</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Jazz.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Jazz.png">
       <PackagePath>Assets\Images\Genres\Jazz.png</PackagePath>
-      <Modified>2022-02-26T18:02:29.667</Modified>
+      <Modified>2022-02-24T21:37:34.505</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Pop.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Pop.png">
       <PackagePath>Assets\Images\Genres\Pop.png</PackagePath>
-      <Modified>2022-02-26T18:02:29.668</Modified>
+      <Modified>2022-02-24T21:41:41.135</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Rap.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Rap.png">
       <PackagePath>Assets\Images\Genres\Rap.png</PackagePath>
-      <Modified>2022-02-26T18:02:29.668</Modified>
+      <Modified>2022-02-24T21:31:53.649</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Rock.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Rock.png">
       <PackagePath>Assets\Images\Genres\Rock.png</PackagePath>
-      <Modified>2022-02-26T18:02:29.669</Modified>
+      <Modified>2022-02-24T21:38:33.016</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\logo.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\logo.png">
       <PackagePath>Assets\Images\logo.png</PackagePath>
-      <Modified>2022-02-26T18:02:29.670</Modified>
+      <Modified>2022-02-25T03:14:38.751</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\MusicNote.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\MusicNote.png">
       <PackagePath>Assets\Images\MusicNote.png</PackagePath>
-      <Modified>2022-02-26T18:02:29.669</Modified>
+      <Modified>2022-02-24T21:47:07.188</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2022-02-26T18:02:29.670</Modified>
+      <Modified>2022-02-21T17:06:21.050</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T18:02:29.671</Modified>
+      <Modified>2022-02-21T17:06:21.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T18:02:29.671</Modified>
+      <Modified>2022-02-21T17:06:21.053</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T18:02:29.672</Modified>
+      <Modified>2022-02-21T17:06:21.054</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T18:02:29.672</Modified>
+      <Modified>2022-02-21T17:06:21.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T18:02:29.673</Modified>
+      <Modified>2022-02-21T17:06:21.056</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T18:02:29.673</Modified>
+      <Modified>2022-02-21T17:06:21.057</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\Strangers in the night.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\Strangers in the night.mp3">
       <PackagePath>Assets\Audio\Classical\Strangers in the night.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:28.989</Modified>
+      <Modified>2022-02-25T16:45:22.122</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3">
       <PackagePath>Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:28.957</Modified>
+      <Modified>2022-02-25T16:45:22.067</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I Get A Kick Out Of You.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I Get A Kick Out Of You.mp3">
       <PackagePath>Assets\Audio\Classical\I Get A Kick Out Of You.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:28.914</Modified>
+      <Modified>2022-02-25T16:45:21.989</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\song3.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\song3.mp3">
       <PackagePath>Assets\Audio\Country\song3.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:29.152</Modified>
+      <Modified>2022-02-24T02:35:10.502</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Akon - Beautiful.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Akon - Beautiful.mp3">
       <PackagePath>Assets\Audio\Country\Akon - Beautiful.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:29.036</Modified>
+      <Modified>2022-02-25T16:45:22.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\If I were a boy remix.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\If I were a boy remix.mp3">
       <PackagePath>Assets\Audio\Country\If I were a boy remix.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:29.119</Modified>
+      <Modified>2022-02-25T16:45:22.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Jar of Heaerts.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Jar of Heaerts.mp3">
       <PackagePath>Assets\Audio\Jazz\Jar of Heaerts.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:29.218</Modified>
+      <Modified>2022-02-26T20:20:49.771</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Hey, Soul Siste.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Hey, Soul Siste.mp3">
       <PackagePath>Assets\Audio\Jazz\Hey, Soul Siste.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:29.286</Modified>
+      <Modified>2022-02-26T20:20:49.583</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Antything Can Happen.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Antything Can Happen.mp3">
       <PackagePath>Assets\Audio\Electronic\Antything Can Happen.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:29.163</Modified>
+      <Modified>2022-02-26T20:20:49.288</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Light My Fire.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Light My Fire.mp3">
       <PackagePath>Assets\Audio\Electronic\Light My Fire.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:29.180</Modified>
+      <Modified>2022-02-26T20:20:49.336</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\A Day To Be Alone.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\A Day To Be Alone.mp3">
       <PackagePath>Assets\Audio\Pop\A Day To Be Alone.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:29.351</Modified>
+      <Modified>2022-02-25T16:45:22.447</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\Marry Me.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\Marry Me.mp3">
       <PackagePath>Assets\Audio\Pop\Marry Me.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:29.387</Modified>
+      <Modified>2022-02-25T16:45:22.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\song9.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\song9.mp3">
       <PackagePath>Assets\Audio\Pop\song9.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:29.434</Modified>
+      <Modified>2022-02-24T02:35:11.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Harvest Moon.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Harvest Moon.mp3">
       <PackagePath>Assets\Audio\Rap\Harvest Moon.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:29.531</Modified>
+      <Modified>2022-02-25T16:45:22.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Heart Of Gold.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Heart Of Gold.mp3">
       <PackagePath>Assets\Audio\Rap\Heart Of Gold.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:29.572</Modified>
+      <Modified>2022-02-25T16:45:22.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Flight Attendan.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Flight Attendan.mp3">
       <PackagePath>Assets\Audio\Rock\Flight Attendan.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:29.607</Modified>
+      <Modified>2022-02-26T20:20:49.889</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\song16.mp3">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\song16.mp3">
       <PackagePath>Assets\Audio\Rock\song16.mp3</PackagePath>
-      <Modified>2022-02-26T18:02:29.664</Modified>
+      <Modified>2022-02-25T16:45:22.813</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-02-26T18:02:29.679</Modified>
+      <Modified>2022-02-21T17:06:21.065</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.xr.xml">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.xr.xml">
       <PackagePath>MusicLibraryApplication.xr.xml</PackagePath>
-      <Modified>2022-02-26T18:02:36.994</Modified>
+      <Modified>2022-02-26T17:19:36.135</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-26T19:00:51.305</Modified>
+      <Modified>2022-02-26T22:50:11.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-02-26T19:00:51.305</Modified>
+      <Modified>2022-02-26T23:06:29.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2020-12-02T09:52:06.000</Modified>
+      <Modified>2020-12-02T10:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-26T18:16:14.719</Modified>
+      <Modified>2022-02-26T20:22:34.829</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Core\MusicLibraryApplication.exe">
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Core\MusicLibraryApplication.exe">
       <PackagePath>MusicLibraryApplication.exe</PackagePath>
-      <Modified>2022-02-26T19:00:51.819</Modified>
+      <Modified>2022-02-26T23:06:29.741</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
