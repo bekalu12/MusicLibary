@@ -31,6 +31,15 @@ namespace MusicLibraryApplication.Model
             filteredMusic.ForEach(item => collection.Add(item));
         }
 
+        public static void GetSelectedMusicByTitle(ObservableCollection<SongItem> collection, string title)
+        {
+            var allMusic = GetMusic();
+            var filteredMusic = allMusic.Where(item => item.SongTitle == title).ToList();
+            
+
+            filteredMusic.ForEach(item => collection.Add(item));
+        }
+
         // Filters songs in Observable Collection by genre
         public static void GetMusicByCategory(ObservableCollection<SongItem> collection, MusicGenre genre)
         {

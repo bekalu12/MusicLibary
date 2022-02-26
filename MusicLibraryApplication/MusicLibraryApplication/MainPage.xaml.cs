@@ -32,19 +32,19 @@ namespace MusicLibraryApplication
         private ObservableCollection<SongItem> SelectedMusic; // to the selected music of user collection 
 
         // Yassmin: the right menu that has the music category list displayed , when the user chooses a category all the songs under this list will be loaded 
-
+       
         private List<MenuItem> MenuItems;
         public MainPage()
         {
 
             this.InitializeComponent();
-      
+            BackButton.Visibility = Visibility.Collapsed;
 
             //Yassmin : Read all the music files into observable collection 
 
             Musics = new ObservableCollection<SongItem>();
             SelectedMusic = new ObservableCollection<SongItem>();
-
+          
             MusicManager.GetAllMusic(Musics);
 
             //Yassmin: Load all the music category list to the right menu 
@@ -110,15 +110,17 @@ namespace MusicLibraryApplication
             var menuItem = (MenuItem)e.ClickedItem;
             //Yassmin : expected that the texbock of the musics page changed to be the Genre 
             MusicManager.GetMusicByCategory(Musics, menuItem.MenuSelection);
+            BackButton.Visibility = Visibility.Visible;
 
         }
 
         private void MyCollection_ItemClick(object sender, ItemClickEventArgs e)
         {
+            BackButton.Visibility = Visibility.Visible;
             var title = e.ClickedItem.ToString();
             //Yassmin : expected that the texbock of the musics page changed to be the Genre 
             MusicManager.GetMusicByTitle(SelectedMusic, title);
-
+            
         }
 
         private void MyCollectio_Click(object sender, RoutedEventArgs e)
@@ -127,11 +129,11 @@ namespace MusicLibraryApplication
         }
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-            // I need to store all checked items in a list or collection 
+            
             MusicManager.GetAllMusic(Musics);
             CategoryList.SelectedItem = null;
-            // 
             BackButton.Visibility = Visibility.Collapsed;
+
         }
 
     }
