@@ -59,6 +59,7 @@ namespace MusicLibraryApplication.Model
         public SongItem (string name, string artist, string albumName, MusicGenre genre)
         {
             SongTitle = name;
+            ArtistName = artist;
             Genre = genre;
             ImageFile = $"/Assets/Images/MusicNote.png";
             AudioFile = $"/Assets/Audio/{Genre}/{SongTitle}.mp3";

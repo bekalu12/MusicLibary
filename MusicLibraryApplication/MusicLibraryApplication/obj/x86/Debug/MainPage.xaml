@@ -10,45 +10,53 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        
+
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        
+
         <RelativePanel Grid.Row="0" Background="White" >
-            <Image x:ConnectionId='20' Name="Logo"
+            <Image x:ConnectionId='21' Name="Logo"
                    Source="/Assets/Images/logo.png"
                    MaxHeight="45"
                    Margin="0 0 500 0"
                    RelativePanel.AlignLeftWithPanel="True"/>
-            <TextBlock x:ConnectionId='21' Text="Categories" 
-                       Name="CategoryListText"
+            <TextBlock x:ConnectionId='22' Name="CategoryListText"
+                       Text="Categories"
                        HorizontalTextAlignment="Center"
                        Width="150"
                        FontSize="20"
                        FontFamily="Calibri"
+                       FontWeight="Bold"
                        Foreground="DarkBlue"
                        RelativePanel.AlignRightWithPanel="True"
                        Margin="0,10,10,0">
             </TextBlock>
-            <Button x:ConnectionId='22' Name="MyCollectio" 
+            <Button x:ConnectionId='23' Name="MyCollectio" 
                     RelativePanel.LeftOf="BackButton"                   
                     Height="45"
                     Width="150"
                     FontSize="15"
                     FontFamily="Calibri"
                     Foreground="DarkBlue"
+                    Background="White"
+                    FontWeight="Bold"
+                    BorderThickness="0"
                     Content="Create Collection"
-                                             />
-            <Button x:ConnectionId='23' Name="BackButton" 
+                                             >
+            </Button>
+
+            <Button x:ConnectionId='24' Name="BackButton" 
                     RelativePanel.LeftOf="CategoryListText"
                     FontFamily="Segoe MDL2 Assets"
                     Height="45"
                     Width="45"
                     Content="&#xE0AD;"
                     Foreground="DarkBlue"
+                    Background="White"
+                    BorderThickness="0"
                                             />
         </RelativePanel>
 
@@ -64,13 +72,14 @@
             <Grid>
 
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="600"/>
+                    <RowDefinition Height="300"/>
+                    <RowDefinition Height="*"/>
                     <RowDefinition Height="300"/>
                 </Grid.RowDefinitions>
 
                 <MediaElement x:ConnectionId='8' Name="MusicMedia" 
                               AutoPlay="True" />
-                
+
                 <GridView x:ConnectionId='9' Grid.Row="0" 
                           Background="White"
                           Name="ListOfMusic" 
@@ -79,66 +88,83 @@
                                                        
                                                            
                           HorizontalAlignment="Left">
-                    
+
                     <GridView.ItemTemplate>
                         <DataTemplate                           >
-                            <StackPanel x:ConnectionId='16' Orientation="Horizontal"
+                            <StackPanel x:ConnectionId='17' Orientation="Vertical"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Center"
-                                        Margin="0" >
-                                <Image x:ConnectionId='17' Name="MusicImage" 
-                                       HorizontalAlignment="Left"
+                                        Margin="10" >
+                                <Image x:ConnectionId='18' Name="MusicImage" 
+                                       HorizontalAlignment="Center"
                                        VerticalAlignment="Center"
                                        Height="40"
                                        Width="40" 
                                                                    />
-                                <TextBlock x:ConnectionId='18'                           
-                                           HorizontalAlignment="Left"
+                                <TextBlock x:ConnectionId='19'                           
+                                           HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
-                                           FontSize="18"
+                                           FontSize="14"
                                            FontFamily="Calibri"
                                            Foreground="DarkBlue"
-                                           Margin="0 10 10 10"/>
-                                <CheckBox x:ConnectionId='19' Name="CheckBox"
-                                          VerticalAlignment="Center"
-                                          HorizontalAlignment="Left"
-                                          Width="10" Height="10"
-                                                                 
-                                                                   />
-
-
-
+                                           FontWeight="Bold"
+                                           Margin="0"/>
+                                <TextBlock x:ConnectionId='20'                            
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"
+                                           FontSize="11"
+                                           FontFamily="Calibri"
+                                           Foreground="DarkBlue"
+                                           Margin="0"/>
+                                
                             </StackPanel>
                         </DataTemplate>
                     </GridView.ItemTemplate>
                 </GridView>
 
-                <GridView x:ConnectionId='10' Grid.Row="1"
+                <TextBlock Text="My Music"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"
+                           FontSize="20"
+                           Margin="0,10,0,0"
+                           FontWeight="Bold"
+                           FontFamily="Calibri"
+                           Foreground="DarkBlue" Grid.Row="2"/>
+
+                <GridView x:ConnectionId='10' Grid.Row="2"
                           Name="MyCollection"
+                          Margin="0 30 0 0"
                           IsItemClickEnabled="True"
                           SelectionMode="None"
                                                               
                                                             >
                     <GridView.ItemTemplate>
                         <DataTemplate                           >
-                            <StackPanel x:ConnectionId='12' Orientation="Horizontal"
+                            <StackPanel x:ConnectionId='12' Orientation="Vertical"
                                         HorizontalAlignment="Left"
-                                        Visibility="Collapsed"
-                                        VerticalAlignment="Stretch"
-                                        Margin="0,10,0,10" >
-                                <Image x:ConnectionId='13' Name="MusicImage"
-                                       Height="60" 
-                                       Width="60"
+                                        VerticalAlignment="Center"
+                                        Margin="10" >
+                                <Image x:ConnectionId='13' Name="MusicImage" 
+                                       HorizontalAlignment="Center"
                                        VerticalAlignment="Center"
-                                       HorizontalAlignment="Left"
-                                                                  />
+                                       Height="40"
+                                       Width="40" 
+                                                                   />
                                 <TextBlock x:ConnectionId='14'                           
-                                           FontSize="18"
-                                           FontFamily="Calibri"
-                                           Foreground="DarkCyan"
+                                           HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
-                                           HorizontalAlignment="Left"
-                                           Margin="10,10,0,0"/>
+                                           FontSize="14"
+                                           FontFamily="Calibri"
+                                           Foreground="DarkBlue"
+                                           FontWeight="Bold"
+                                           Margin="0"/>
+                                <TextBlock x:ConnectionId='15'                            
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"
+                                           FontSize="11"
+                                           FontFamily="Calibri"
+                                           Foreground="DarkBlue"
+                                           Margin="0"/>
                             </StackPanel>
                         </DataTemplate>
                     </GridView.ItemTemplate>
@@ -177,6 +203,6 @@
                 </ListView>
             </RelativePanel>
         </Grid>
-    </Grid>   
+    </Grid>
 </Page>
 
