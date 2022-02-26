@@ -26,7 +26,7 @@ namespace MusicLibraryApplication.Model
         {
             var allMusic = GetMusic();
             var filteredMusic = allMusic.Where(item => item.SongTitle== title).ToList();
-            collection.Clear();
+            //collection.Clear();
 
             filteredMusic.ForEach(item => collection.Add(item));
         }
@@ -76,13 +76,22 @@ namespace MusicLibraryApplication.Model
 
             musicCollection.Add(new SongItem("A Day To Be Alone", "One Less Reason", "Everydaylife", MusicGenre.Pop));
             musicCollection.Add(new SongItem("Marry Me", "Train", "Save Me San Fransisco", MusicGenre.Pop));
-            musicCollection.Add(new SongItem("Unknown", "Unknown ", "Unknown", MusicGenre.Pop));
+            musicCollection.Add(new SongItem("Song9", "Artist1 ", "Unknown", MusicGenre.Pop));
 
             musicCollection.Add(new SongItem("Harvest Moon", "Neil Young", "Harvest Moon", MusicGenre.Rap));
             musicCollection.Add(new SongItem("Heart Of Gold", "Neil Young","Unknown", MusicGenre.Rap));
 
-            musicCollection.Add(new SongItem("Unknown", "Unknown ", "Unknown", MusicGenre.Rock));
+            musicCollection.Add(new SongItem("Song16", "Unknown ", "Unknown", MusicGenre.Rock));
             musicCollection.Add(new SongItem("Flight Attendant", "Josh Rouse", "Unknown", MusicGenre.Rock));
+
+
+            musicCollection.Add(new SongItem("Antything Can Happen", "Hans zimmer", "The Holiday", MusicGenre.Electronic));
+            musicCollection.Add(new SongItem("Light My Fire ", "Hans zimmer", "The Holiday", MusicGenre.Electronic));
+
+
+            musicCollection.Add(new SongItem("Jar of Heaerts", "Christina Perri", "Unknown", MusicGenre.Jazz));
+            musicCollection.Add(new SongItem("Hey, Soul Sister", "Various Artists", "Unknow", MusicGenre.Jazz));
+
 
             return musicCollection;
         }

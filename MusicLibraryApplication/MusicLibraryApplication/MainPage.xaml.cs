@@ -70,25 +70,26 @@ namespace MusicLibraryApplication
             MenuItems.Add(new MenuItem
             {
                 Icon = $"Assets/Images/Genres/Jazz.png",
-                MenuSelection = MusicGenre.Pop
+                MenuSelection = MusicGenre.Jazz
 
             });
             MenuItems.Add(new MenuItem
             {
                 Icon = $"Assets/Images/Genres/Pop.png",
-                MenuSelection = MusicGenre.Rap
+                MenuSelection = MusicGenre.Pop
+
 
             });
             MenuItems.Add(new MenuItem
             {
                 Icon = $"Assets/Images/Genres/Rap.png",
-                MenuSelection = MusicGenre.Rock
+                MenuSelection = MusicGenre.Rap
 
             });
             MenuItems.Add(new MenuItem
             {
                 Icon = $"Assets/Images/Genres/Rock.png",
-                MenuSelection = MusicGenre.Rap
+                MenuSelection = MusicGenre.Rock
             });
 
         }
@@ -102,20 +103,6 @@ namespace MusicLibraryApplication
 
         // Yassmin :  when the check box is checked , the selected songs are put in a collection
 
-
-        private void CheckBox_Click(object sender, RoutedEventArgs e)
-        {
-            // when the check box is checked , the item selected is added to the observable collection of selected item 
-
-        }
-
-
-
-        /// Yassmin :  when the check box is unchceked , remove it from the collection of added songs 
-
-        private void CheckBox_Click_unchecked(object sender, RoutedEventArgs e)
-        {
-        }
 
 
         private void CategoryList_ItemClick(object sender, ItemClickEventArgs e)
