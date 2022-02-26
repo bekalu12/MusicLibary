@@ -32,7 +32,7 @@ namespace MusicLibraryApplication
         private ObservableCollection<SongItem> SelectedMusic; // to the selected music of user collection 
 
         // Yassmin: the right menu that has the music category list displayed , when the user chooses a category all the songs under this list will be loaded 
-       
+        private List<object> Menu;
         private List<MenuItem> MenuItems;
         private List<ArtistMenuItem> ArtistMenuItems;
         private List<DecadeMenuItem> DecadeMenuItems;
@@ -93,52 +93,52 @@ namespace MusicLibraryApplication
             ArtistMenuItems = new List<ArtistMenuItem>();
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 ArtistName = "Akon"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 ArtistName = "Beyonce"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 ArtistName = "Michael Buble"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 ArtistName = "One Less Reason"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 ArtistName = "Christina Perri"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 ArtistName = "Josh Rouse"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 ArtistName = "Frank Sinatra"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 ArtistName = "Train"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 ArtistName = "Neil Young"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 ArtistName = "Hans Zimmer"
             });
 
@@ -146,37 +146,37 @@ namespace MusicLibraryApplication
             DecadeMenuItems = new List<DecadeMenuItem>();
             DecadeMenuItems.Add(new DecadeMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 Decade = Decades.Sixies
             });
             DecadeMenuItems.Add(new DecadeMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 Decade = Decades.Seventies
             });
             DecadeMenuItems.Add(new DecadeMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 Decade = Decades.Eighties
             });
             DecadeMenuItems.Add(new DecadeMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 Decade = Decades.Ninties
             });
             DecadeMenuItems.Add(new DecadeMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 Decade = Decades.Aughts
             });
             DecadeMenuItems.Add(new DecadeMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 Decade = Decades.Teens
             });
             DecadeMenuItems.Add(new DecadeMenuItem
             {
-                Icon = $"Assets/Images/placeholder",
+                Icon = $"Assets/Images/Albums.png",
                 Decade = Decades.Twenties
             });
         }
@@ -192,17 +192,27 @@ namespace MusicLibraryApplication
         private void CategoryList_ItemClick(object sender, ItemClickEventArgs e)
         {
             var menuItem = (MenuItem)e.ClickedItem;
-            //Yassmin : expected that the texbock of the musics page changed to be the Genre 
             MusicManager.GetMusicByCategory(Musics, menuItem.MenuSelection);
             BackButton.Visibility = Visibility.Visible;
+        }
 
+        private void ArtistList_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            var menuItem = (ArtistMenuItem)e.ClickedItem;
+            MusicManager.GetMusicByArtist(Musics, menuItem.ArtistName);
+            BackButton.Visibility = Visibility.Visible;
+        }
+        private void DecadeList_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            var menuItem = (DecadeMenuItem)e.ClickedItem;
+            MusicManager.GetMusicByDecade(Musics, menuItem.Decade);
+            BackButton.Visibility = Visibility.Visible;
         }
 
         private void MyCollection_ItemClick(object sender, ItemClickEventArgs e)
         {
             BackButton.Visibility = Visibility.Visible;
             var title = e.ClickedItem.ToString();
-            //Yassmin : expected that the texbock of the musics page changed to be the Genre 
             MusicManager.GetMusicByTitle(SelectedMusic, title);
             
         }
@@ -222,8 +232,48 @@ namespace MusicLibraryApplication
 
         private void HamButton_Click(object sender, RoutedEventArgs e)
         {
-
+            if (ListCategory.Visibility == Visibility.Visible)
+            {
+                ListCategory.Visibility = Visibility.Collapsed;
+            }
+            else if (ArtistCategory.Visibility == Visibility.Collapsed)
+            {
+                ArtistCategory.Visibility = Visibility.Collapsed;
+            }
+            else if (DecadeCategory.Visibility == Visibility.Collapsed)
+            {
+                DecadeCategory.Visibility = Visibility.Collapsed;
+            }
         }
+
+        private void ByGenre_Click(object sender, RoutedEventArgs e)
+        {
+            ListCategory.Visibility = Visibility.Visible;
+            ArtistCategory.Visibility = Visibility.Collapsed;
+            DecadeCategory.Visibility = Visibility.Collapsed;
+
+            BackButton.Visibility = Visibility.Visible;
+        }
+
+        private void ByArtist_Click(object sender, RoutedEventArgs e)
+        {
+            ArtistCategory.Visibility = Visibility.Visible;
+            ListCategory.Visibility = Visibility.Collapsed;
+            DecadeCategory.Visibility = Visibility.Collapsed;
+
+            BackButton.Visibility = Visibility.Visible;
+        }
+
+        private void ByDecade_Click(object sender, RoutedEventArgs e)
+        {
+            DecadeCategory.Visibility = Visibility.Visible;
+            ListCategory.Visibility = Visibility.Collapsed;
+            ArtistCategory.Visibility = Visibility.Collapsed;
+
+            BackButton.Visibility = Visibility.Visible;
+        }
+
+
     }
 
 }

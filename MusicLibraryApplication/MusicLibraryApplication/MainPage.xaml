@@ -24,8 +24,6 @@
                    Margin="0 0 500 0"
                    RelativePanel.AlignLeftWithPanel="True"/>
 
-            
-
             <Button Name="MyCollectio" 
                     RelativePanel.LeftOf="SearchBy"                   
                     Height="45"
@@ -86,7 +84,7 @@
                     BorderThickness="0"
                     Padding="0"
                     Content="Genre"
-                    Click="MyCollectio_Click">
+                    Click="ByGenre_Click">
                 <Button.Resources>
                     <ResourceDictionary>
                         <ResourceDictionary.ThemeDictionaries>
@@ -120,7 +118,7 @@
                     BorderThickness="0"
                     Padding="0"
                     Content="Artist"
-                    Click="MyCollectio_Click">
+                    Click="ByArtist_Click">
                 <Button.Resources>
                     <ResourceDictionary>
                         <ResourceDictionary.ThemeDictionaries>
@@ -154,7 +152,7 @@
                     BorderThickness="0"
                     Padding="0"
                     Content="Decade"
-                    Click="MyCollectio_Click">
+                    Click="ByDecade_Click">
                 <Button.Resources>
                     <ResourceDictionary>
                         <ResourceDictionary.ThemeDictionaries>
@@ -359,7 +357,7 @@
             <RelativePanel Name="ListCategory"
                            Grid.Column="1" 
                            Background="White"
-                           Visibility="Visible">
+                           Visibility="Collapsed">
                 <ListView Name="CategoryList"
                           IsItemClickEnabled="True"
                           ItemsSource="{x:Bind MenuItems}"
@@ -384,8 +382,91 @@
                                        VerticalAlignment="Center"
                                        Margin="0"/>
                                 <TextBlock Text="{x:Bind MenuSelection}" 
-                                           FontSize="18"
+                                           FontSize="15"
+                                           FontWeight="Bold"
                                            FontFamily="Calibri"
+                                           Foreground="DarkBlue"
+                                           HorizontalAlignment="Left"
+                                           VerticalAlignment="Center"
+                                           Margin="0"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </RelativePanel>
+
+            <RelativePanel Name="ArtistCategory"
+                           Grid.Column="1" 
+                           Background="White"
+                           Visibility="Collapsed">
+                <ListView Name="ArtistList"
+                          IsItemClickEnabled="True"
+                          ItemsSource="{x:Bind ArtistMenuItems}"
+                          ItemClick="ArtistList_ItemClick"
+                          RelativePanel.AlignHorizontalCenterWithPanel="True"
+                          RelativePanel.AlignRightWithPanel="True">
+                    <ListView.Resources>
+                        <SolidColorBrush x:Key="ListViewItemBackgroundSelected" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPointerOver" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundPointerOver" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundPressed" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPressed" Color="WhiteSmoke" />
+                    </ListView.Resources>
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="data:ArtistMenuItem" >
+                            <StackPanel Margin="10"
+                                        HorizontalAlignment="Center" FocusVisualPrimaryBrush="{x:Null}">
+                                <Image Source="{x:Bind Icon}" 
+                                       Height="45"
+                                       Width="45"
+                                       HorizontalAlignment="Left"
+                                       VerticalAlignment="Center"
+                                       Margin="0"/>
+                                <TextBlock Text="{x:Bind ArtistName}" 
+                                           FontSize="15"
+                                           FontWeight="Bold"
+                                           FontFamily="Calibri"
+                                           Foreground="DarkBlue"
+                                           HorizontalAlignment="Left"
+                                           VerticalAlignment="Center"
+                                           Margin="0"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </RelativePanel>
+
+            <RelativePanel Name="DecadeCategory"
+                           Grid.Column="1" 
+                           Background="White"
+                           Visibility="Collapsed">
+                <ListView Name="DecadeList"
+                          IsItemClickEnabled="True"
+                          ItemsSource="{x:Bind DecadeMenuItems}"
+                          ItemClick="DecadeList_ItemClick"
+                          RelativePanel.AlignHorizontalCenterWithPanel="True"
+                          RelativePanel.AlignRightWithPanel="True">
+                    <ListView.Resources>
+                        <SolidColorBrush x:Key="ListViewItemBackgroundSelected" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPointerOver" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundPointerOver" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundPressed" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPressed" Color="WhiteSmoke" />
+                    </ListView.Resources>
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="data:DecadeMenuItem" >
+                            <StackPanel Margin="10"
+                                        HorizontalAlignment="Center" FocusVisualPrimaryBrush="{x:Null}">
+                                <Image Source="{x:Bind Icon}" 
+                                       Height="45"
+                                       Width="45"
+                                       HorizontalAlignment="Left"
+                                       VerticalAlignment="Center"
+                                       Margin="0"/>
+                                <TextBlock Text="{x:Bind Decade}" 
+                                           FontSize="15"
+                                           FontFamily="Calibri"
+                                           FontWeight="Bold"
                                            Foreground="DarkBlue"
                                            HorizontalAlignment="Left"
                                            VerticalAlignment="Center"
