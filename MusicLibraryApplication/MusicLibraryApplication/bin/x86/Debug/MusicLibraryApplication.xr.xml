@@ -105,7 +105,14 @@
       <RootProperty Name="FontWeight" />
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="Content" />
+      <RootProperty Name="Resources" />
       <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
+      <RootProperty Name="ThemeDictionaries" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
     </RootType>
     <RootType FullName="MusicLibraryApplication.MainPage" />
   </Roots.RootTypes>

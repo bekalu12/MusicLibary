@@ -46,6 +46,20 @@
                     BorderThickness="0"
                     Content="Create Collection"
                     Click="MyCollectio_Click">
+                <Button.Resources>
+                    <ResourceDictionary>
+                        <ResourceDictionary.ThemeDictionaries>
+                            <ResourceDictionary x:Key="Dark">
+                                <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="DarkCyan"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="White"/>
+                            </ResourceDictionary>
+                            <ResourceDictionary x:Key="Light">
+                                <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="DarkCyan"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="White"/>
+                            </ResourceDictionary>
+                        </ResourceDictionary.ThemeDictionaries>
+                    </ResourceDictionary>
+                </Button.Resources>
             </Button>
 
             <Button Name="BackButton" 
@@ -57,7 +71,22 @@
                     Foreground="DarkBlue"
                     Background="White"
                     BorderThickness="0"
-                    Click="BackButton_Click"/>
+                    Click="BackButton_Click">
+                <Button.Resources>
+                    <ResourceDictionary>
+                        <ResourceDictionary.ThemeDictionaries>
+                            <ResourceDictionary x:Key="Dark">
+                                <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="DarkCyan"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="White"/>
+                            </ResourceDictionary>
+                            <ResourceDictionary x:Key="Light">
+                                <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="DarkCyan"/>
+                                <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="White"/>
+                            </ResourceDictionary>
+                        </ResourceDictionary.ThemeDictionaries>
+                    </ResourceDictionary>
+                </Button.Resources>
+            </Button>
         </RelativePanel>
 
         <Grid Grid.Row ="1"  
