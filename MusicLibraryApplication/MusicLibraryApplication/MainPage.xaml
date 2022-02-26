@@ -121,6 +121,8 @@
                     <GridView.ItemTemplate>
                         <DataTemplate x:DataType="data:SongItem">
                             <StackPanel Orientation="Vertical"
+                                        Height="90"
+                                        Width="90"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Center"
                                         Margin="10" >
@@ -137,6 +139,8 @@
                                            FontFamily="Calibri"
                                            Foreground="DarkBlue"
                                            FontWeight="Bold"
+                                           TextWrapping="WrapWholeWords"
+                                           TextAlignment="Center"
                                            Margin="0"/>
                                 <TextBlock Text="{x:Bind ArtistName}" 
                                            HorizontalAlignment="Center"
@@ -144,6 +148,7 @@
                                            FontSize="11"
                                            FontFamily="Calibri"
                                            Foreground="DarkBlue"
+                                           TextWrapping="WrapWholeWords"
                                            Margin="0"/>
                                 
                             </StackPanel>
@@ -172,6 +177,8 @@
                             <StackPanel Orientation="Vertical"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Center"
+                                        Height="90"
+                                        Width="90"
                                         Margin="10" >
                                 <Image Name="MusicImage" 
                                        HorizontalAlignment="Center"
@@ -186,6 +193,8 @@
                                            FontFamily="Calibri"
                                            Foreground="DarkBlue"
                                            FontWeight="Bold"
+                                           TextWrapping="WrapWholeWords"
+                                           TextAlignment="Center"
                                            Margin="0"/>
                                 <TextBlock Text="{x:Bind ArtistName}" 
                                            HorizontalAlignment="Center"
@@ -193,6 +202,7 @@
                                            FontSize="11"
                                            FontFamily="Calibri"
                                            Foreground="DarkBlue"
+                                           TextWrapping="WrapWholeWords"
                                            Margin="0"/>
                             </StackPanel>
                         </DataTemplate>
