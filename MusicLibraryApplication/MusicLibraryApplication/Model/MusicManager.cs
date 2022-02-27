@@ -20,8 +20,7 @@ namespace MusicLibraryApplication.Model
             allMusic.ForEach(item => collection.Add(item));
         }
 
-        // Gets the music by its name to add to the user collection 
-
+        // Gets the music by its name to add to the user collection
         public static void GetMusicByTitle(ObservableCollection<SongItem> collection, string title)
         {
             var allMusic = GetMusic();
@@ -31,6 +30,7 @@ namespace MusicLibraryApplication.Model
             filteredMusic.ForEach(item => collection.Add(item));
         }
 
+        // Gets song in Observable Collection by Title
         public static void GetSelectedMusicByTitle(ObservableCollection<SongItem> collection, string title)
         {
             var allMusic = GetMusic();
