@@ -100,7 +100,6 @@ C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryAppl
 C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425067200000000.json
 C:\Users\crazy\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425103200000000.json
-C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425067200000000.json
 C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\App.xbf
 C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MainPage.xbf
 C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.xr.xml

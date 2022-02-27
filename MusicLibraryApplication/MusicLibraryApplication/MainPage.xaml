@@ -396,11 +396,12 @@
                     <ListView.ItemTemplate>
                         <DataTemplate x:DataType="data:MenuItem" >
                             <StackPanel Margin="10"
+                                        Width="60"
                                         HorizontalAlignment="Center" FocusVisualPrimaryBrush="{x:Null}">
                                 <Image Source="{x:Bind Icon}" 
                                        Height="45"
                                        Width="45"
-                                       HorizontalAlignment="Left"
+                                       HorizontalAlignment="Center"
                                        VerticalAlignment="Center"
                                        Margin="0"/>
                                 <TextBlock Text="{x:Bind MenuSelection}" 
@@ -408,7 +409,8 @@
                                            FontWeight="Bold"
                                            FontFamily="Calibri"
                                            Foreground="DarkBlue"
-                                           HorizontalAlignment="Left"
+                                           HorizontalTextAlignment="Center"
+                                           HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
                                            Margin="0"/>
                             </StackPanel>
@@ -437,11 +439,12 @@
                     <ListView.ItemTemplate>
                         <DataTemplate x:DataType="data:ArtistMenuItem" >
                             <StackPanel Margin="10"
+                                        Width="60"
                                         HorizontalAlignment="Center" FocusVisualPrimaryBrush="{x:Null}">
                                 <Image Source="{x:Bind Icon}" 
                                        Height="45"
                                        Width="45"
-                                       HorizontalAlignment="Left"
+                                       HorizontalAlignment="Center"
                                        VerticalAlignment="Center"
                                        Margin="0"/>
                                 <TextBlock Text="{x:Bind ArtistName}" 
@@ -449,7 +452,9 @@
                                            FontWeight="Bold"
                                            FontFamily="Calibri"
                                            Foreground="DarkBlue"
-                                           HorizontalAlignment="Left"
+                                           HorizontalTextAlignment="Center"
+                                           TextWrapping="WrapWholeWords"
+                                           HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
                                            Margin="0"/>
                             </StackPanel>
@@ -478,11 +483,12 @@
                     <ListView.ItemTemplate>
                         <DataTemplate x:DataType="data:DecadeMenuItem" >
                             <StackPanel Margin="10"
+                                        Width="60"
                                         HorizontalAlignment="Center" FocusVisualPrimaryBrush="{x:Null}">
                                 <Image Source="{x:Bind Icon}" 
                                        Height="45"
                                        Width="45"
-                                       HorizontalAlignment="Left"
+                                       HorizontalAlignment="Center"
                                        VerticalAlignment="Center"
                                        Margin="0"/>
                                 <TextBlock Text="{x:Bind Decade}" 
@@ -490,7 +496,8 @@
                                            FontFamily="Calibri"
                                            FontWeight="Bold"
                                            Foreground="DarkBlue"
-                                           HorizontalAlignment="Left"
+                                           HorizontalTextAlignment="Center"
+                                           HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
                                            Margin="0"/>
                             </StackPanel>
