@@ -15,7 +15,7 @@ namespace MusicLibraryApplication.Model
             switch (dateTime.Year)
             {
                 case int n when n >= 1960 && n < 1970:
-                    Decades decade1 = Decades.Sixies;
+                    Decades decade1 = Decades.Sixties;
                     return decade1;
                 case int n when n >= 1970 && n < 1980:
                     Decades decade2 = Decades.Seventies;

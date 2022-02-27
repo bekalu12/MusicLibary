@@ -20,7 +20,7 @@ namespace MusicLibraryApplication.Model
 
     public enum Decades
     {
-        Sixies,
+        Sixties,
         Seventies,
         Eighties,
         Ninties,

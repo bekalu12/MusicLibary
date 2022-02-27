@@ -155,6 +155,10 @@
     <Content Include="Assets\Audio\Rap\Heart Of Gold.mp3" />
     <Content Include="Assets\Audio\Rock\Flight Attendan.mp3" />
     <Content Include="Assets\Audio\Rock\song16.mp3" />
+    <Content Include="Assets\Images\Artists\Artist.png" />
+    <Content Include="Assets\Images\Decades\Aughts.png" />
+    <Content Include="Assets\Images\Decades\Eighties.png" />
+    <Content Include="Assets\Images\Genres\Artist.png" />
     <Content Include="Assets\Images\Genres\Classical.png" />
     <Content Include="Assets\Images\Genres\Country.png" />
     <Content Include="Assets\Images\Genres\Electronic.png" />
@@ -164,6 +168,11 @@
     <Content Include="Assets\Images\Genres\Rock.png" />
     <Content Include="Assets\Images\logo.png" />
     <Content Include="Assets\Images\MusicNote.png" />
+    <Content Include="Assets\Images\Decades\Ninties.png" />
+    <Content Include="Assets\Images\Decades\Seventies.png" />
+    <Content Include="Assets\Images\Decades\Sixties.png" />
+    <Content Include="Assets\Images\Decades\Teens.png" />
+    <Content Include="Assets\Images\Decades\Twenties.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
