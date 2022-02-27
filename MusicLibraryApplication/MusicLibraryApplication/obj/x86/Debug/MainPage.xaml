@@ -18,15 +18,13 @@
         </Grid.RowDefinitions>
 
         <RelativePanel Grid.Row="0" Background="White" >
-            <Image x:ConnectionId='27' Name="Logo"
+            <Image x:ConnectionId='33' Name="Logo"
                    Source="/Assets/Images/logo.png"
                    MaxHeight="45"
                    Margin="0 0 500 0"
                    RelativePanel.AlignLeftWithPanel="True"/>
 
-            
-
-            <Button x:ConnectionId='28' Name="MyCollectio" 
+            <Button x:ConnectionId='34' Name="MyCollectio" 
                     RelativePanel.LeftOf="SearchBy"                   
                     Height="45"
                     Width="150"
@@ -60,7 +58,7 @@
                 </Button.Resources>
             </Button>
 
-            <TextBlock x:ConnectionId='29' Name="SearchBy"
+            <TextBlock x:ConnectionId='35' Name="SearchBy"
                        Text="Search By:"
                        HorizontalTextAlignment="Center"
                        Width="100"
@@ -73,7 +71,7 @@
 
             </TextBlock>
 
-            <Button x:ConnectionId='30' Name="ByGenre" 
+            <Button x:ConnectionId='36' Name="ByGenre" 
                     RelativePanel.LeftOf="ByArtist"                   
                     Height="45"
                     Width="80"
@@ -86,7 +84,7 @@
                     BorderThickness="0"
                     Padding="0"
                     Content="Genre"
-                                             >
+                                         >
                 <Button.Resources>
                     <ResourceDictionary>
                         <ResourceDictionary.ThemeDictionaries>
@@ -107,7 +105,7 @@
                 </Button.Resources>
             </Button>
 
-            <Button x:ConnectionId='31' Name="ByArtist" 
+            <Button x:ConnectionId='37' Name="ByArtist" 
                     RelativePanel.LeftOf="ByDecade"                   
                     Height="45"
                     Width="80"
@@ -120,7 +118,7 @@
                     BorderThickness="0"
                     Padding="0"
                     Content="Artist"
-                                             >
+                                          >
                 <Button.Resources>
                     <ResourceDictionary>
                         <ResourceDictionary.ThemeDictionaries>
@@ -141,7 +139,7 @@
                 </Button.Resources>
             </Button>
 
-            <Button x:ConnectionId='32' Name="ByDecade" 
+            <Button x:ConnectionId='38' Name="ByDecade" 
                     RelativePanel.LeftOf="BackButton"                   
                     Height="45"
                     Width="80"
@@ -154,7 +152,7 @@
                     BorderThickness="0"
                     Padding="0"
                     Content="Decade"
-                                             >
+                                          >
                 <Button.Resources>
                     <ResourceDictionary>
                         <ResourceDictionary.ThemeDictionaries>
@@ -175,7 +173,7 @@
                 </Button.Resources>
             </Button>
 
-            <Button x:ConnectionId='33' Name="BackButton" 
+            <Button x:ConnectionId='39' Name="BackButton" 
                     RelativePanel.LeftOf="HamButton"
                     FontFamily="Segoe MDL2 Assets"
                     Height="45"
@@ -205,7 +203,7 @@
                 </Button.Resources>
             </Button>
 
-            <Button x:ConnectionId='34' Name="HamButton" 
+            <Button x:ConnectionId='40' Name="HamButton" 
                     RelativePanel.AlignRightWithPanel="True"
                     FontFamily="Segoe MDL2 Assets"
                     Height="45"
@@ -254,10 +252,10 @@
                     <RowDefinition Height="100"/>
                 </Grid.RowDefinitions>
 
-                <MediaElement x:ConnectionId='8' Name="MusicMedia" 
+                <MediaElement x:ConnectionId='20' Name="MusicMedia" 
                               AutoPlay="True" />
 
-                <GridView x:ConnectionId='9' Grid.Row="0" 
+                <GridView x:ConnectionId='21' Grid.Row="0" 
                           Background="White"
                           Name="ListOfMusic" 
                           IsItemClickEnabled="True"
@@ -268,19 +266,19 @@
 
                     <GridView.ItemTemplate>
                         <DataTemplate                           >
-                            <StackPanel x:ConnectionId='23' Orientation="Vertical"
+                            <StackPanel x:ConnectionId='29' Orientation="Vertical"
                                         Height="90"
                                         Width="90"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Center"
                                         Margin="10" >
-                                <Image x:ConnectionId='24' Name="MusicImage" 
+                                <Image x:ConnectionId='30' Name="MusicImage" 
                                        HorizontalAlignment="Center"
                                        VerticalAlignment="Center"
                                        Height="40"
                                        Width="40" 
                                                                    />
-                                <TextBlock x:ConnectionId='25'                           
+                                <TextBlock x:ConnectionId='31'                           
                                            HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
                                            FontSize="14"
@@ -290,7 +288,7 @@
                                            TextWrapping="WrapWholeWords"
                                            TextAlignment="Center"
                                            Margin="0"/>
-                                <TextBlock x:ConnectionId='26'                            
+                                <TextBlock x:ConnectionId='32'                            
                                            HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
                                            FontSize="11"
@@ -312,7 +310,7 @@
                            FontFamily="Calibri"
                            Foreground="DarkBlue" Grid.Row="2"/>
 
-                <GridView x:ConnectionId='10' Grid.Row="2"
+                <GridView x:ConnectionId='22' Grid.Row="2"
                           Name="MyCollection"
                           Margin="0 30 0 0"
                           IsItemClickEnabled="True"
@@ -321,19 +319,19 @@
                                                             >
                     <GridView.ItemTemplate>
                         <DataTemplate                           >
-                            <StackPanel x:ConnectionId='18' Orientation="Vertical"
+                            <StackPanel x:ConnectionId='24' Orientation="Vertical"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Center"
                                         Height="90"
                                         Width="90"
                                         Margin="10" >
-                                <Image x:ConnectionId='19' Name="MusicImage" 
+                                <Image x:ConnectionId='25' Name="MusicImage" 
                                        HorizontalAlignment="Center"
                                        VerticalAlignment="Center"
                                        Height="40"
                                        Width="40" 
                                                                    />
-                                <TextBlock x:ConnectionId='20'                           
+                                <TextBlock x:ConnectionId='26'                           
                                            HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
                                            FontSize="14"
@@ -343,7 +341,7 @@
                                            TextWrapping="WrapWholeWords"
                                            TextAlignment="Center"
                                            Margin="0"/>
-                                <TextBlock x:ConnectionId='21'                            
+                                <TextBlock x:ConnectionId='27'                            
                                            HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
                                            FontSize="11"
@@ -381,8 +379,8 @@
             <RelativePanel x:ConnectionId='2' Name="ListCategory"
                            Grid.Column="1" 
                            Background="White"
-                           Visibility="Visible">
-                <ListView x:ConnectionId='3' Name="CategoryList"
+                           Visibility="Collapsed">
+                <ListView x:ConnectionId='15' Name="CategoryList"
                           IsItemClickEnabled="True"
                                                           
                                                             
@@ -397,17 +395,100 @@
                     </ListView.Resources>
                     <ListView.ItemTemplate>
                         <DataTemplate                            >
-                            <StackPanel x:ConnectionId='5' Margin="10"
+                            <StackPanel x:ConnectionId='17' Margin="10"
                                         HorizontalAlignment="Center" FocusVisualPrimaryBrush="{x:Null}">
-                                <Image x:ConnectionId='6'                        
+                                <Image x:ConnectionId='18'                        
                                        Height="45"
                                        Width="45"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Center"
                                        Margin="0"/>
-                                <TextBlock x:ConnectionId='7'                               
-                                           FontSize="18"
+                                <TextBlock x:ConnectionId='19'                               
+                                           FontSize="15"
+                                           FontWeight="Bold"
                                            FontFamily="Calibri"
+                                           Foreground="DarkBlue"
+                                           HorizontalAlignment="Left"
+                                           VerticalAlignment="Center"
+                                           Margin="0"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </RelativePanel>
+
+            <RelativePanel x:ConnectionId='3' Name="ArtistCategory"
+                           Grid.Column="1" 
+                           Background="White"
+                           Visibility="Collapsed">
+                <ListView x:ConnectionId='10' Name="ArtistList"
+                          IsItemClickEnabled="True"
+                                                                
+                                                          
+                          RelativePanel.AlignHorizontalCenterWithPanel="True"
+                          RelativePanel.AlignRightWithPanel="True">
+                    <ListView.Resources>
+                        <SolidColorBrush x:Key="ListViewItemBackgroundSelected" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPointerOver" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundPointerOver" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundPressed" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPressed" Color="WhiteSmoke" />
+                    </ListView.Resources>
+                    <ListView.ItemTemplate>
+                        <DataTemplate                                  >
+                            <StackPanel x:ConnectionId='12' Margin="10"
+                                        HorizontalAlignment="Center" FocusVisualPrimaryBrush="{x:Null}">
+                                <Image x:ConnectionId='13'                        
+                                       Height="45"
+                                       Width="45"
+                                       HorizontalAlignment="Left"
+                                       VerticalAlignment="Center"
+                                       Margin="0"/>
+                                <TextBlock x:ConnectionId='14'                            
+                                           FontSize="15"
+                                           FontWeight="Bold"
+                                           FontFamily="Calibri"
+                                           Foreground="DarkBlue"
+                                           HorizontalAlignment="Left"
+                                           VerticalAlignment="Center"
+                                           Margin="0"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </RelativePanel>
+
+            <RelativePanel x:ConnectionId='4' Name="DecadeCategory"
+                           Grid.Column="1" 
+                           Background="White"
+                           Visibility="Collapsed">
+                <ListView x:ConnectionId='5' Name="DecadeList"
+                          IsItemClickEnabled="True"
+                                                                
+                                                          
+                          RelativePanel.AlignHorizontalCenterWithPanel="True"
+                          RelativePanel.AlignRightWithPanel="True">
+                    <ListView.Resources>
+                        <SolidColorBrush x:Key="ListViewItemBackgroundSelected" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPointerOver" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundPointerOver" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundPressed" Color="WhiteSmoke" />
+                        <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPressed" Color="WhiteSmoke" />
+                    </ListView.Resources>
+                    <ListView.ItemTemplate>
+                        <DataTemplate                                  >
+                            <StackPanel x:ConnectionId='7' Margin="10"
+                                        HorizontalAlignment="Center" FocusVisualPrimaryBrush="{x:Null}">
+                                <Image x:ConnectionId='8'                        
+                                       Height="45"
+                                       Width="45"
+                                       HorizontalAlignment="Left"
+                                       VerticalAlignment="Center"
+                                       Margin="0"/>
+                                <TextBlock x:ConnectionId='9'                        
+                                           FontSize="15"
+                                           FontFamily="Calibri"
+                                           FontWeight="Bold"
                                            Foreground="DarkBlue"
                                            HorizontalAlignment="Left"
                                            VerticalAlignment="Center"
