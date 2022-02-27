@@ -239,11 +239,11 @@ namespace MusicLibraryApplication
             {
                 ListCategory.Visibility = Visibility.Collapsed;
             }
-            else if (ArtistCategory.Visibility == Visibility.Collapsed)
+            else if (ArtistCategory.Visibility == Visibility.Visible)
             {
                 ArtistCategory.Visibility = Visibility.Collapsed;
             }
-            else if (DecadeCategory.Visibility == Visibility.Collapsed)
+            else if (DecadeCategory.Visibility == Visibility.Visible)
             {
                 DecadeCategory.Visibility = Visibility.Collapsed;
             }
