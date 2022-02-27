@@ -260,9 +260,10 @@ namespace MusicLibraryApplication
         {
             var mySelectedSong = (SongItem)e.ClickedItem;
             MusicManager.GetSelectedMusicByTitle(SelectedMusic, mySelectedSong.SongTitle);
+            MusicMedia.Source = new Uri(BaseUri, mySelectedSong.AudioFile);
         }
 
-        private void MyCollection_ItemClick(object sender, ItemClickEventArgs e)
+        private void MyMusicCollection_ItemClick(object sender, ItemClickEventArgs e)
         {
             currentSongSelected = (SongItem) e.ClickedItem;
             PlaySong(currentSongSelected);
@@ -273,7 +274,7 @@ namespace MusicLibraryApplication
             MusicMedia.Play();
         }
 
-        private void MyCollectio_Click(object sender, RoutedEventArgs e)
+        private void MyCollection_Click(object sender, RoutedEventArgs e)
         {
             // I need to store all checked items in a list or collection 
         }

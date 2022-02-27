@@ -24,7 +24,7 @@
                    Margin="0 0 500 0"
                    RelativePanel.AlignLeftWithPanel="True"/>
 
-            <Button Name="MyCollectio" 
+            <Button Name="MyCollection" 
                     RelativePanel.LeftOf="SearchBy"                   
                     Height="45"
                     Width="150"
@@ -37,7 +37,7 @@
                     BorderThickness="0"
                     Padding="0"
                     Content="Create Collection"
-                    Click="MyCollectio_Click">
+                    Click="MyCollection_Click">
                 <Button.Resources>
                     <ResourceDictionary>
                         <ResourceDictionary.ThemeDictionaries>
@@ -178,7 +178,7 @@
                     FontFamily="Segoe MDL2 Assets"
                     Height="45"
                     Width="45"
-                    Content="&#xE0AD;"
+                    Content="&#xE0A6;"
                     Foreground="DarkBlue"
                     Background="White"
                     BorderThickness="0"
@@ -311,12 +311,12 @@
                            Foreground="DarkBlue" Grid.Row="2"/>
 
                 <GridView Grid.Row="2"
-                          Name="MyCollection"
+                          Name="MyMusicCollection"
                           Margin="0 30 0 0"
                           IsItemClickEnabled="True"
                           SelectionMode="None"
                           ItemsSource="{x:Bind SelectedMusic}"
-                          ItemClick="MyCollection_ItemClick">
+                          ItemClick="MyMusicCollection_ItemClick">
                     <GridView.ItemTemplate>
                         <DataTemplate x:DataType="data:SongItem">
                             <StackPanel Orientation="Vertical"
