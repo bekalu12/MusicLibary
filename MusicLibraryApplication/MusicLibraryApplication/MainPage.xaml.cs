@@ -18,24 +18,19 @@ using MusicLibraryApplication.Model;
 
 
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
-
 namespace MusicLibraryApplication
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+
     public sealed partial class MainPage : Page
     {
-        private ObservableCollection<SongItem> Musics; // List that has all music files loaded 
-
+        private ObservableCollection<SongItem> Musics; // List that has all music files loaded
         private ObservableCollection<SongItem> SelectedMusic; // to the selected music of user collection 
 
-        // Yassmin: the right menu that has the music category list displayed , when the user chooses a category all the songs under this list will be loaded 
-        private List<object> Menu;
+        // Menus
         private List<MenuItem> MenuItems;
         private List<ArtistMenuItem> ArtistMenuItems;
         private List<DecadeMenuItem> DecadeMenuItems;
+
         private SongItem currentSongSelected;
 
         public MainPage()
@@ -44,8 +39,7 @@ namespace MusicLibraryApplication
             this.InitializeComponent();
             BackButton.Visibility = Visibility.Collapsed;
 
-            //Yassmin : Read all the music files into observable collection 
-
+            //Read all the music files into observable collection
             Musics = new ObservableCollection<SongItem>();
             SelectedMusic = new ObservableCollection<SongItem>();
           
@@ -182,13 +176,63 @@ namespace MusicLibraryApplication
             });
         }
 
-        private void ListOfMusic_ItemClick(object sender, ItemClickEventArgs e)
+        
+        // Header Event Handlers
+        private void ByGenre_Click(object sender, RoutedEventArgs e)
         {
-            var mySelectedSong = (SongItem)e.ClickedItem;
-            MusicManager.GetMusicByTitle(SelectedMusic, mySelectedSong.SongTitle);
+            ListCategory.Visibility = Visibility.Visible;
+            ArtistCategory.Visibility = Visibility.Collapsed;
+            DecadeCategory.Visibility = Visibility.Collapsed;
+
+            BackButton.Visibility = Visibility.Visible;
         }
 
+        private void ByArtist_Click(object sender, RoutedEventArgs e)
+        {
+            ArtistCategory.Visibility = Visibility.Visible;
+            ListCategory.Visibility = Visibility.Collapsed;
+            DecadeCategory.Visibility = Visibility.Collapsed;
 
+            BackButton.Visibility = Visibility.Visible;
+        }
+
+        private void ByDecade_Click(object sender, RoutedEventArgs e)
+        {
+            DecadeCategory.Visibility = Visibility.Visible;
+            ListCategory.Visibility = Visibility.Collapsed;
+            ArtistCategory.Visibility = Visibility.Collapsed;
+
+            BackButton.Visibility = Visibility.Visible;
+        }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+
+            MusicManager.GetAllMusic(Musics);
+            CategoryList.SelectedItem = null;
+            BackButton.Visibility = Visibility.Collapsed;
+
+        }
+        private void HamButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (ListCategory.Visibility == Visibility.Visible)
+            {
+                ListCategory.Visibility = Visibility.Collapsed;
+                BackButton.Visibility = Visibility.Collapsed;
+            }
+            else if (ArtistCategory.Visibility == Visibility.Visible)
+            {
+                ArtistCategory.Visibility = Visibility.Collapsed;
+                BackButton.Visibility = Visibility.Collapsed;
+            }
+            else if (DecadeCategory.Visibility == Visibility.Visible)
+            {
+                DecadeCategory.Visibility = Visibility.Collapsed;
+                BackButton.Visibility = Visibility.Collapsed;
+            }
+        }
+
+        // Menu Item Click Events
         private void CategoryList_ItemClick(object sender, ItemClickEventArgs e)
         {
             var menuItem = (MenuItem)e.ClickedItem;
@@ -209,6 +253,13 @@ namespace MusicLibraryApplication
             BackButton.Visibility = Visibility.Visible;
         }
 
+
+        private void ListOfMusic_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            var mySelectedSong = (SongItem)e.ClickedItem;
+            MusicManager.GetMusicByTitle(SelectedMusic, mySelectedSong.SongTitle);
+        }
+
         private void MyCollection_ItemClick(object sender, ItemClickEventArgs e)
         {
             currentSongSelected = (SongItem) e.ClickedItem;
@@ -224,33 +275,7 @@ namespace MusicLibraryApplication
         {
             // I need to store all checked items in a list or collection 
         }
-        private void BackButton_Click(object sender, RoutedEventArgs e)
-        {
-            
-            MusicManager.GetAllMusic(Musics);
-            CategoryList.SelectedItem = null;
-            BackButton.Visibility = Visibility.Collapsed;
 
-        }
-
-        private void HamButton_Click(object sender, RoutedEventArgs e)
-        {
-            if (ListCategory.Visibility == Visibility.Visible)
-            {
-                ListCategory.Visibility = Visibility.Collapsed;
-                BackButton.Visibility = Visibility.Collapsed;
-            }
-            else if (ArtistCategory.Visibility == Visibility.Visible)
-            {
-                ArtistCategory.Visibility = Visibility.Collapsed;
-                BackButton.Visibility = Visibility.Collapsed;
-            }
-            else if (DecadeCategory.Visibility == Visibility.Visible)
-            {
-                DecadeCategory.Visibility = Visibility.Collapsed;
-                BackButton.Visibility = Visibility.Collapsed;
-            }
-        }
 
         //private void PlayArea_ItemClick(object sender, ItemClickEventArgs e)
         // {
@@ -277,23 +302,7 @@ namespace MusicLibraryApplication
         }
            
 
-        private void ByGenre_Click(object sender, RoutedEventArgs e)
-        {
-            ListCategory.Visibility = Visibility.Visible;
-            ArtistCategory.Visibility = Visibility.Collapsed;
-            DecadeCategory.Visibility = Visibility.Collapsed;
-
-            BackButton.Visibility = Visibility.Visible;
-        }
-
-        private void ByArtist_Click(object sender, RoutedEventArgs e)
-        {
-            ArtistCategory.Visibility = Visibility.Visible;
-            ListCategory.Visibility = Visibility.Collapsed;
-            DecadeCategory.Visibility = Visibility.Collapsed;
-
-            BackButton.Visibility = Visibility.Visible;
-        }
+        
         private void buttonStop_Click(object sender, RoutedEventArgs e)
         {
             MusicMedia.Stop();
@@ -312,14 +321,7 @@ namespace MusicLibraryApplication
             PlaySong(currentSongSelected);
         }
 
-        private void ByDecade_Click(object sender, RoutedEventArgs e)
-        {
-            DecadeCategory.Visibility = Visibility.Visible;
-            ListCategory.Visibility = Visibility.Collapsed;
-            ArtistCategory.Visibility = Visibility.Collapsed;
-
-            BackButton.Visibility = Visibility.Visible;
-        }
+        
 
 
     }
