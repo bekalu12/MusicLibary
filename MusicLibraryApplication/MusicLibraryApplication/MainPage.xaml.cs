@@ -235,13 +235,24 @@ namespace MusicLibraryApplication
 
         private void HamButton_Click(object sender, RoutedEventArgs e)
         {
-
+            if (ListCategory.Visibility == Visibility.Visible)
+            {
+                ListCategory.Visibility = Visibility.Collapsed;
+            }
+            else if (ArtistCategory.Visibility == Visibility.Collapsed)
+            {
+                ArtistCategory.Visibility = Visibility.Collapsed;
+            }
+            else if (DecadeCategory.Visibility == Visibility.Collapsed)
+            {
+                DecadeCategory.Visibility = Visibility.Collapsed;
+            }
         }
 
         //private void PlayArea_ItemClick(object sender, ItemClickEventArgs e)
-       // {
+        // {
 
-       // }
+        // }
 
         private void buttonPlay_Click(object sender, RoutedEventArgs e)
         {
@@ -261,19 +272,7 @@ namespace MusicLibraryApplication
             }
             PlaySong(currentSongSelected);
         }
-            if (ListCategory.Visibility == Visibility.Visible)
-            {
-                ListCategory.Visibility = Visibility.Collapsed;
-            }
-            else if (ArtistCategory.Visibility == Visibility.Collapsed)
-            {
-                ArtistCategory.Visibility = Visibility.Collapsed;
-            }
-            else if (DecadeCategory.Visibility == Visibility.Collapsed)
-            {
-                DecadeCategory.Visibility = Visibility.Collapsed;
-            }
-        }
+           
 
         private void ByGenre_Click(object sender, RoutedEventArgs e)
         {
@@ -291,6 +290,7 @@ namespace MusicLibraryApplication
             DecadeCategory.Visibility = Visibility.Collapsed;
 
             BackButton.Visibility = Visibility.Visible;
+        }
         private void buttonStop_Click(object sender, RoutedEventArgs e)
         {
             MusicMedia.Stop();

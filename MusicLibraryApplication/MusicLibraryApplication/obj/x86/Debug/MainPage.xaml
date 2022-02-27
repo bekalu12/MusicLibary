@@ -18,13 +18,13 @@
         </Grid.RowDefinitions>
 
         <RelativePanel Grid.Row="0" Background="White" >
-            <Image x:ConnectionId='33' Name="Logo"
+            <Image x:ConnectionId='39' Name="Logo"
                    Source="/Assets/Images/logo.png"
                    MaxHeight="45"
                    Margin="0 0 500 0"
                    RelativePanel.AlignLeftWithPanel="True"/>
 
-            <Button x:ConnectionId='34' Name="MyCollectio" 
+            <Button x:ConnectionId='40' Name="MyCollectio" 
                     RelativePanel.LeftOf="SearchBy"                   
                     Height="45"
                     Width="150"
@@ -58,7 +58,7 @@
                 </Button.Resources>
             </Button>
 
-            <TextBlock x:ConnectionId='35' Name="SearchBy"
+            <TextBlock x:ConnectionId='41' Name="SearchBy"
                        Text="Search By:"
                        HorizontalTextAlignment="Center"
                        Width="100"
@@ -71,7 +71,7 @@
 
             </TextBlock>
 
-            <Button x:ConnectionId='36' Name="ByGenre" 
+            <Button x:ConnectionId='42' Name="ByGenre" 
                     RelativePanel.LeftOf="ByArtist"                   
                     Height="45"
                     Width="80"
@@ -105,7 +105,7 @@
                 </Button.Resources>
             </Button>
 
-            <Button x:ConnectionId='37' Name="ByArtist" 
+            <Button x:ConnectionId='43' Name="ByArtist" 
                     RelativePanel.LeftOf="ByDecade"                   
                     Height="45"
                     Width="80"
@@ -139,7 +139,7 @@
                 </Button.Resources>
             </Button>
 
-            <Button x:ConnectionId='38' Name="ByDecade" 
+            <Button x:ConnectionId='44' Name="ByDecade" 
                     RelativePanel.LeftOf="BackButton"                   
                     Height="45"
                     Width="80"
@@ -173,7 +173,7 @@
                 </Button.Resources>
             </Button>
 
-            <Button x:ConnectionId='39' Name="BackButton" 
+            <Button x:ConnectionId='45' Name="BackButton" 
                     RelativePanel.LeftOf="HamButton"
                     FontFamily="Segoe MDL2 Assets"
                     Height="45"
@@ -203,7 +203,7 @@
                 </Button.Resources>
             </Button>
 
-            <Button x:ConnectionId='40' Name="HamButton" 
+            <Button x:ConnectionId='46' Name="HamButton" 
                     RelativePanel.AlignRightWithPanel="True"
                     FontFamily="Segoe MDL2 Assets"
                     Height="45"
@@ -266,19 +266,19 @@
 
                     <GridView.ItemTemplate>
                         <DataTemplate                           >
-                            <StackPanel x:ConnectionId='29' Orientation="Vertical"
+                            <StackPanel x:ConnectionId='35' Orientation="Vertical"
                                         Height="90"
                                         Width="90"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Center"
                                         Margin="10" >
-                                <Image x:ConnectionId='30' Name="MusicImage" 
+                                <Image x:ConnectionId='36' Name="MusicImage" 
                                        HorizontalAlignment="Center"
                                        VerticalAlignment="Center"
                                        Height="40"
                                        Width="40" 
                                                                    />
-                                <TextBlock x:ConnectionId='31'                           
+                                <TextBlock x:ConnectionId='37'                           
                                            HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
                                            FontSize="14"
@@ -288,7 +288,7 @@
                                            TextWrapping="WrapWholeWords"
                                            TextAlignment="Center"
                                            Margin="0"/>
-                                <TextBlock x:ConnectionId='32'                            
+                                <TextBlock x:ConnectionId='38'                            
                                            HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
                                            FontSize="11"
@@ -319,19 +319,19 @@
                                                             >
                     <GridView.ItemTemplate>
                         <DataTemplate                           >
-                            <StackPanel x:ConnectionId='24' Orientation="Vertical"
+                            <StackPanel x:ConnectionId='30' Orientation="Vertical"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Center"
                                         Height="90"
                                         Width="90"
                                         Margin="10" >
-                                <Image x:ConnectionId='25' Name="MusicImage" 
+                                <Image x:ConnectionId='31' Name="MusicImage" 
                                        HorizontalAlignment="Center"
                                        VerticalAlignment="Center"
                                        Height="40"
                                        Width="40" 
                                                                    />
-                                <TextBlock x:ConnectionId='26'                           
+                                <TextBlock x:ConnectionId='32'                           
                                            HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
                                            FontSize="14"
@@ -341,7 +341,7 @@
                                            TextWrapping="WrapWholeWords"
                                            TextAlignment="Center"
                                            Margin="0"/>
-                                <TextBlock x:ConnectionId='27'                            
+                                <TextBlock x:ConnectionId='33'                            
                                            HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
                                            FontSize="11"
@@ -353,7 +353,7 @@
                         </DataTemplate>
                     </GridView.ItemTemplate>
                 </GridView>
-                <GridView x:ConnectionId='11' Grid.Row="3"
+                <GridView x:ConnectionId='23' Grid.Row="3"
                           Name="PlayArea"
                           IsItemClickEnabled="True"
                           SelectionMode="None"
@@ -365,13 +365,13 @@
 
                         </Grid.RowDefinitions>
                         <GridView Grid.Row="0">
-                            <TextBlock x:ConnectionId='16'  x:Name="SongPlayingText"></TextBlock>
+                            <TextBlock x:ConnectionId='28'  x:Name="SongPlayingText"></TextBlock>
                         </GridView>
                         <GridView Grid.Row="1">
-                            <Button x:ConnectionId='12' x:Name="buttonBackward" Content="Back"                          Height="50" Width="50"></Button>
-                            <Button x:ConnectionId='13' x:Name="buttonPlay" Content="Play"                          Height="50" Width="50"></Button>
-                            <Button x:ConnectionId='14' x:Name="buttonStop" Content="Stop"                          Height="50" Width="50"></Button>
-                            <Button x:ConnectionId='15' x:Name="buttonForward" Content="Next"                          Height="50" Width="50"></Button>
+                            <Button x:ConnectionId='24' x:Name="buttonBackward" Content="Back"                          Height="50" Width="50"></Button>
+                            <Button x:ConnectionId='25' x:Name="buttonPlay" Content="Play"                          Height="50" Width="50"></Button>
+                            <Button x:ConnectionId='26' x:Name="buttonStop" Content="Stop"                          Height="50" Width="50"></Button>
+                            <Button x:ConnectionId='27' x:Name="buttonForward" Content="Next"                          Height="50" Width="50"></Button>
                         </GridView>
                     </Grid>
                 </GridView>

@@ -113,7 +113,6 @@ C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\M
 C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.build.appxrecipe
 C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\System.Runtime.dll
 C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\MusicLibraryApplication.csproj.AssemblyReference.cache
 C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\App.g.i.cs
 C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\App.g.cs
 C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\MainPage.g.i.cs
@@ -145,5 +144,4 @@ C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\M
 C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425067200000000.json
 C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425103200000000.json
