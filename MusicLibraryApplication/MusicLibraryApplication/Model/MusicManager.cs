@@ -74,32 +74,31 @@ namespace MusicLibraryApplication.Model
         private static List<SongItem> GetMusic()
         {
             var musicCollection = new List<SongItem>();
-            musicCollection.Add(new SongItem("Strangers In The Night", "Frank Sinatra","Greatest Hits", MusicGenre.Classical, new DateTime(1960, 12, 25)));
-            musicCollection.Add(new SongItem("I'll Be Home For Christmas", "Michael Buble", "Let It Snow", MusicGenre.Classical, new DateTime(2000, 12, 25)));
-            musicCollection.Add(new SongItem("I Get A Kick Out Of You", "Michael Buble", "Let It Snow", MusicGenre.Classical, new DateTime(2007, 12, 25)));
+            musicCollection.Add(new SongItem("Strangers In The Night", "Frank Sinatra","Greatest Hits", MusicGenre.Classical, new DateTime(1966, 04, 11)));
+            musicCollection.Add(new SongItem("I'll Be Home For Christmas", "Michael Buble", "Let It Snow", MusicGenre.Classical, new DateTime(2003, 11, 25)));
+            musicCollection.Add(new SongItem("I Get A Kick Out Of You", "Michael Buble", "Let It Snow", MusicGenre.Classical, new DateTime(2003, 11, 25)));
 
+            musicCollection.Add(new SongItem("Beautiful", "Akon", "Unknown", MusicGenre.Pop, new DateTime(2009, 01, 06)));
+            musicCollection.Add(new SongItem("Song3", "Unknown", "Unknown", MusicGenre.Country, new DateTime(2008, 10, 08)));
+            musicCollection.Add(new SongItem("If I Were A Boy Remix", "Beyonce", "Unknown", MusicGenre.Pop, new DateTime(2008, 10, 08)));
 
-            musicCollection.Add(new SongItem("Beautiful", "Akon", "Unknown", MusicGenre.Country, new DateTime(2000, 12, 25)));
-            musicCollection.Add(new SongItem("Song3", "Unknown", "Unknown", MusicGenre.Country, new DateTime(2015, 12, 25)));
-            musicCollection.Add(new SongItem("If I Were A Boy Remix", "Beyonce", "Unknown", MusicGenre.Country, new DateTime(2015, 12, 25)));
-
-            musicCollection.Add(new SongItem("A Day To Be Alone", "One Less Reason", "Everydaylife", MusicGenre.Pop, new DateTime(2015, 12, 25)));
-            musicCollection.Add(new SongItem("Marry Me", "Train", "Save Me San Fransisco", MusicGenre.Pop, new DateTime(2015, 12, 25)));
+            musicCollection.Add(new SongItem("A Day To Be Alone", "One Less Reason", "Everydaylife", MusicGenre.Pop, new DateTime(2005, 01, 01)));
+            musicCollection.Add(new SongItem("Marry Me", "Train", "Save Me, San Francisco", MusicGenre.Rock, new DateTime(2010, 10, 25)));
             musicCollection.Add(new SongItem("Song9", "Artist1 ", "Unknown", MusicGenre.Pop, new DateTime(2015, 12, 25)));
 
-            musicCollection.Add(new SongItem("Harvest Moon", "Neil Young", "Harvest Moon", MusicGenre.Rap, new DateTime(2015, 12, 25)));
-            musicCollection.Add(new SongItem("Heart Of Gold", "Neil Young","Unknown", MusicGenre.Rap, new DateTime(2015, 12, 25)));
+            musicCollection.Add(new SongItem("Harvest Moon", "Neil Young", "Harvest Moon", MusicGenre.Rock, new DateTime(1992, 11, 02)));
+            musicCollection.Add(new SongItem("Heart Of Gold", "Neil Young","Harvest", MusicGenre.Rock, new DateTime(1972, 01, 01)));
 
             musicCollection.Add(new SongItem("Song16", "Unknown", "Unknown", MusicGenre.Rock, new DateTime(2015, 12, 25)));
-            musicCollection.Add(new SongItem("Flight Attendant", "Josh Rouse", "Unknown", MusicGenre.Rock, new DateTime(2015, 12, 25)));
+            musicCollection.Add(new SongItem("Flight Attendant", "Josh Rouse", "1972", MusicGenre.Rock, new DateTime(2003, 08, 26)));
 
 
-            musicCollection.Add(new SongItem("Antything Can Happen", "Hans Zimmer", "The Holiday", MusicGenre.Electronic, new DateTime(2015, 12, 25)));
-            musicCollection.Add(new SongItem("Light My Fire", "Hans Zimmer", "The Holiday", MusicGenre.Electronic, new DateTime(2015, 12, 25)));
+            musicCollection.Add(new SongItem("Antything Can Happen", "Hans Zimmer", "The Holiday", MusicGenre.Electronic, new DateTime(2007, 01, 01)));
+            musicCollection.Add(new SongItem("Light My Fire", "Hans Zimmer", "The Holiday", MusicGenre.Electronic, new DateTime(2007, 01, 01)));
 
 
-            musicCollection.Add(new SongItem("Jar of Hearts", "Christina Perri", "Unknown", MusicGenre.Jazz, new DateTime(2015, 12, 25)));
-            musicCollection.Add(new SongItem("Hey, Soul Sister", "Various Artists", "Unknown", MusicGenre.Jazz, new DateTime(2015, 12, 25)));
+            musicCollection.Add(new SongItem("Jar of Hearts", "Christina Perri", "Lovestrong", MusicGenre.Pop, new DateTime(2010, 07, 27)));
+            musicCollection.Add(new SongItem("Hey, Soul Sister", "Train", "Save Me, San Francisco", MusicGenre.Rock, new DateTime(2009, 08, 11)));
 
 
             return musicCollection;
