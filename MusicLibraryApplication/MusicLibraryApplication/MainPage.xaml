@@ -251,6 +251,7 @@
                     <RowDefinition Height="300"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="300"/>
+                    <RowDefinition Height="100"/>
                 </Grid.RowDefinitions>
 
                 <MediaElement Name="MusicMedia" 
@@ -354,8 +355,29 @@
                         </DataTemplate>
                     </GridView.ItemTemplate>
                 </GridView>
-            </Grid>
+                <GridView Grid.Row="3"
+                          Name="PlayArea"
+                          IsItemClickEnabled="True"
+                          SelectionMode="None"
+                           HorizontalAlignment="Center">
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
 
+                        </Grid.RowDefinitions>
+                        <GridView Grid.Row="0">
+                            <TextBlock  x:Name="SongPlayingText"></TextBlock>
+                        </GridView>
+                        <GridView Grid.Row="1">
+                            <Button x:Name="buttonBackward" Content="Back" Click="buttonBack_Click" Height="50" Width="50"></Button>
+                            <Button x:Name="buttonPlay" Content="Play" Click="buttonPlay_Click" Height="50" Width="50"></Button>
+                            <Button x:Name="buttonStop" Content="Stop" Click="buttonStop_Click" Height="50" Width="50"></Button>
+                            <Button x:Name="buttonForward" Content="Next" Click="buttonNext_Click" Height="50" Width="50"></Button>
+                        </GridView>
+                    </Grid>
+                </GridView>
+            </Grid>
             <RelativePanel Name="ListCategory"
                            Grid.Column="1" 
                            Background="White"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\burro\\Documents\\GitHub\\MusicLibary\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj": {}
+    "C:\\Users\\samuel.l.fitzsimmons\\Source\\Repos\\MusicLibary\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\burro\\Documents\\GitHub\\MusicLibary\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj": {
+    "C:\\Users\\samuel.l.fitzsimmons\\Source\\Repos\\MusicLibary\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burro\\Documents\\GitHub\\MusicLibary\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj",
+        "projectUniqueName": "C:\\Users\\samuel.l.fitzsimmons\\Source\\Repos\\MusicLibary\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj",
         "projectName": "MusicLibraryApplication",
-        "projectPath": "C:\\Users\\burro\\Documents\\GitHub\\MusicLibary\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj",
-        "packagesPath": "C:\\Users\\burro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burro\\Documents\\GitHub\\MusicLibary\\MusicLibraryApplication\\MusicLibraryApplication\\obj\\",
+        "projectPath": "C:\\Users\\samuel.l.fitzsimmons\\Source\\Repos\\MusicLibary\\MusicLibraryApplication\\MusicLibraryApplication\\MusicLibraryApplication.csproj",
+        "packagesPath": "C:\\Users\\samuel.l.fitzsimmons\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samuel.l.fitzsimmons\\Source\\Repos\\MusicLibary\\MusicLibraryApplication\\MusicLibraryApplication\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -20,7 +20,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\burro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samuel.l.fitzsimmons\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"

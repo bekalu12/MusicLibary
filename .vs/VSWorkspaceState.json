@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MusicLibraryApplication"
   ],
-  "SelectedNode": "\\MusicLibraryApplication.sln",
+  "SelectedNode": "\\MusicLibraryApplication\\MusicLibraryApplication.sln",
   "PreviewInSolutionExplorer": false
 }

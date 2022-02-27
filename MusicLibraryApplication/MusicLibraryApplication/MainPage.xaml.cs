@@ -36,6 +36,7 @@ namespace MusicLibraryApplication
         private List<MenuItem> MenuItems;
         private List<ArtistMenuItem> ArtistMenuItems;
         private List<DecadeMenuItem> DecadeMenuItems;
+        private SongItem currentSongSelected;
 
         public MainPage()
         {
@@ -185,7 +186,6 @@ namespace MusicLibraryApplication
         {
             var mySelectedSong = (SongItem)e.ClickedItem;
             MusicManager.GetMusicByTitle(SelectedMusic, mySelectedSong.SongTitle);
-          
         }
 
 
@@ -200,11 +200,13 @@ namespace MusicLibraryApplication
 
         private void MyCollection_ItemClick(object sender, ItemClickEventArgs e)
         {
-            BackButton.Visibility = Visibility.Visible;
-            var title = e.ClickedItem.ToString();
-            //Yassmin : expected that the texbock of the musics page changed to be the Genre 
-            MusicManager.GetMusicByTitle(SelectedMusic, title);
-            
+            currentSongSelected = (SongItem) e.ClickedItem;
+            PlaySong(currentSongSelected);
+        }
+
+        private void PlaySong(SongItem songItem) {
+            MusicMedia.Source = new Uri(BaseUri, currentSongSelected.AudioFile);
+            MusicMedia.Play();
         }
 
         private void MyCollectio_Click(object sender, RoutedEventArgs e)
@@ -223,6 +225,48 @@ namespace MusicLibraryApplication
         private void HamButton_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        //private void PlayArea_ItemClick(object sender, ItemClickEventArgs e)
+       // {
+
+       // }
+
+        private void buttonPlay_Click(object sender, RoutedEventArgs e)
+        {
+            MusicMedia.Play();
+        }
+
+        private void buttonBack_Click(object sender, RoutedEventArgs e)
+        {
+            int currentSelectedSongIndex = SelectedMusic.IndexOf(currentSongSelected);
+            if (currentSelectedSongIndex !=  0)
+            {
+                currentSongSelected = SelectedMusic.ElementAt(currentSelectedSongIndex - 1);
+            }
+            else
+            {
+                currentSongSelected = SelectedMusic.ElementAt(SelectedMusic.Count);
+            }
+            PlaySong(currentSongSelected);
+        }
+
+        private void buttonStop_Click(object sender, RoutedEventArgs e)
+        {
+            MusicMedia.Stop();
+        }
+
+        private void buttonNext_Click(object sender, RoutedEventArgs e)
+        {
+            int currentSelectedSongIndex = SelectedMusic.IndexOf(currentSongSelected);
+            if (SelectedMusic.Count != currentSelectedSongIndex + 1)
+            {
+                currentSongSelected = SelectedMusic.ElementAt(currentSelectedSongIndex + 1);
+            }
+            else {
+               currentSongSelected = SelectedMusic.ElementAt(0);
+            }
+            PlaySong(currentSongSelected);
         }
     }
 
