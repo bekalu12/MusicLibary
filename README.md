@@ -1,4 +1,4 @@
-# Musika:
+# Musika
 Musika is a music application that allows the user to build a collection of music from a larger. pre-defined library. 
 
 Upon opening the application, the user is presented with all songs from the pre-defined library on the top portion and an empty "My Music" collection on the bottom portion of the page. The user is able to navigate and filter the songs presented through a series of menus and navigation buttons. Upon clicking a song, the selection is immediately moved into the "My Music" collection where the user can then play an mp3 file using a click action.
