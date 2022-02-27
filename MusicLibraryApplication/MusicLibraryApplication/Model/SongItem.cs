@@ -39,6 +39,7 @@ namespace MusicLibraryApplication.Model
         public DateTime ReleaseDate { get; set; }
         public string ImageFile { get; set; }
         public string AudioFile { get; set; }
+        
 
         public SongItem (string name, string artist, string albumName, MusicGenre genre, DateTime releaseDate)
         {
@@ -49,6 +50,7 @@ namespace MusicLibraryApplication.Model
             ReleaseDate = releaseDate;
             ImageFile = $"/Assets/Images/MusicNote.png";
             AudioFile = $"/Assets/Audio/{Genre}/{SongTitle}.mp3";
+
 
         }
     }

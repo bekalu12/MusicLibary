@@ -42,7 +42,7 @@ namespace MusicLibraryApplication
             //Read all the music files into observable collection
             Musics = new ObservableCollection<SongItem>();
             SelectedMusic = new ObservableCollection<SongItem>();
-          
+
             MusicManager.GetAllMusic(Musics);
 
             // Genre Menu Items
@@ -174,6 +174,8 @@ namespace MusicLibraryApplication
                 Icon = $"Assets/Images/Decades/Twenties.png",
                 Decade = Decades.Twenties
             });
+
+          
         }
 
         
@@ -257,7 +259,7 @@ namespace MusicLibraryApplication
         private void ListOfMusic_ItemClick(object sender, ItemClickEventArgs e)
         {
             var mySelectedSong = (SongItem)e.ClickedItem;
-            MusicManager.GetMusicByTitle(SelectedMusic, mySelectedSong.SongTitle);
+            MusicManager.GetSelectedMusicByTitle(SelectedMusic, mySelectedSong.SongTitle);
         }
 
         private void MyCollection_ItemClick(object sender, ItemClickEventArgs e)
