@@ -94,52 +94,52 @@ namespace MusicLibraryApplication
             ArtistMenuItems = new List<ArtistMenuItem>();
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Artists/Artist.png",
                 ArtistName = "Akon"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Artists/Artist.png",
                 ArtistName = "Beyonce"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Artists/Artist.png",
                 ArtistName = "Michael Buble"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Artists/Artist.png",
                 ArtistName = "One Less Reason"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Artists/Artist.png",
                 ArtistName = "Christina Perri"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Artists/Artist.png",
                 ArtistName = "Josh Rouse"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Artists/Artist.png",
                 ArtistName = "Frank Sinatra"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Artists/Artist.png",
                 ArtistName = "Train"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Artists/Artist.png",
                 ArtistName = "Neil Young"
             });
             ArtistMenuItems.Add(new ArtistMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Artists/Artist.png",
                 ArtistName = "Hans Zimmer"
             });
 
@@ -147,37 +147,37 @@ namespace MusicLibraryApplication
             DecadeMenuItems = new List<DecadeMenuItem>();
             DecadeMenuItems.Add(new DecadeMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
-                Decade = Decades.Sixies
+                Icon = $"Assets/Images/Decades/Sixties.png",
+                Decade = Decades.Sixties
             });
             DecadeMenuItems.Add(new DecadeMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Decades/Seventies.png",
                 Decade = Decades.Seventies
             });
             DecadeMenuItems.Add(new DecadeMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Decades/Eighties.png",
                 Decade = Decades.Eighties
             });
             DecadeMenuItems.Add(new DecadeMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Decades/Ninties.png",
                 Decade = Decades.Ninties
             });
             DecadeMenuItems.Add(new DecadeMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Decades/Aughts.png",
                 Decade = Decades.Aughts
             });
             DecadeMenuItems.Add(new DecadeMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Decades/Teens.png",
                 Decade = Decades.Teens
             });
             DecadeMenuItems.Add(new DecadeMenuItem
             {
-                Icon = $"Assets/Images/Albums.png",
+                Icon = $"Assets/Images/Decades/Twenties.png",
                 Decade = Decades.Twenties
             });
         }
