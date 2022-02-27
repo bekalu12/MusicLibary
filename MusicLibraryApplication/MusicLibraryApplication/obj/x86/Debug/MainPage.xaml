@@ -374,12 +374,13 @@
                     <ListView.ItemTemplate>
                         <DataTemplate                            >
                             <StackPanel x:ConnectionId='17' Margin="10"
-                                        HorizontalAlignment="Right" 
+                                        Width="60"
+                                        HorizontalAlignment="Center" 
                                         FocusVisualPrimaryBrush="{x:Null}">
                                 <Image x:ConnectionId='18'                        
                                        Height="45"
                                        Width="45"
-                                       HorizontalAlignment="Right"
+                                       HorizontalAlignment="Center"
                                        VerticalAlignment="Center"
                                        Margin="0"/>
                                 <TextBlock x:ConnectionId='19'                               
@@ -387,7 +388,8 @@
                                            FontWeight="Bold"
                                            FontFamily="Calibri"
                                            Foreground="DarkBlue"
-                                           HorizontalAlignment="Right"
+                                           HorizontalTextAlignment="Center"
+                                           HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
                                            Margin="0"/>
                             </StackPanel>
@@ -416,11 +418,12 @@
                     <ListView.ItemTemplate>
                         <DataTemplate                                  >
                             <StackPanel x:ConnectionId='12' Margin="10"
-                                        HorizontalAlignment="Right" FocusVisualPrimaryBrush="{x:Null}">
+                                        Width="60"
+                                        HorizontalAlignment="Center" FocusVisualPrimaryBrush="{x:Null}">
                                 <Image x:ConnectionId='13'                        
                                        Height="45"
                                        Width="45"
-                                       HorizontalAlignment="Right"
+                                       HorizontalAlignment="Center"
                                        VerticalAlignment="Center"
                                        Margin="0"/>
                                 <TextBlock x:ConnectionId='14'                            
@@ -429,7 +432,8 @@
                                            FontFamily="Calibri"
                                            TextWrapping="WrapWholeWords"
                                            Foreground="DarkBlue"
-                                           HorizontalAlignment="Right"
+                                           HorizontalTextAlignment="Center"
+                                           HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
                                            Margin="0"/>
                             </StackPanel>
@@ -458,11 +462,12 @@
                     <ListView.ItemTemplate>
                         <DataTemplate                                  >
                             <StackPanel x:ConnectionId='7' Margin="10"
-                                        HorizontalAlignment="Left" FocusVisualPrimaryBrush="{x:Null}">
+                                        Width="60"
+                                        HorizontalAlignment="Center" FocusVisualPrimaryBrush="{x:Null}">
                                 <Image x:ConnectionId='8'                        
                                        Height="45"
                                        Width="45"
-                                       HorizontalAlignment="Left"
+                                       HorizontalAlignment="Center"
                                        VerticalAlignment="Center"
                                        Margin="0"/>
                                 <TextBlock x:ConnectionId='9'                        
@@ -470,7 +475,8 @@
                                            FontFamily="Calibri"
                                            FontWeight="Bold"
                                            Foreground="DarkBlue"
-                                           HorizontalAlignment="Left"
+                                           HorizontalTextAlignment="Center"
+                                           HorizontalAlignment="Center"
                                            VerticalAlignment="Center"
                                            Margin="0"/>
                             </StackPanel>
