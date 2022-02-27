@@ -115,8 +115,8 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\Strangers in the night.mp3">
-      <PackagePath>Assets\Audio\Classical\Strangers in the night.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\Strangers In The Night.mp3">
+      <PackagePath>Assets\Audio\Classical\Strangers In The Night.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3">
       <PackagePath>Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3</PackagePath>
@@ -124,17 +124,14 @@
     <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I Get A Kick Out Of You.mp3">
       <PackagePath>Assets\Audio\Classical\I Get A Kick Out Of You.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\song3.mp3">
-      <PackagePath>Assets\Audio\Country\song3.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Song5.mp3">
+      <PackagePath>Assets\Audio\Country\Song5.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Beautiful.mp3">
       <PackagePath>Assets\Audio\Country\Beautiful.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\If I Were A Boy %28remix%29.mp3">
       <PackagePath>Assets\Audio\Country\If I Were A Boy %28remix%29.mp3</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Jar of Heaerts.mp3">
-      <PackagePath>Assets\Audio\Jazz\Jar of Heaerts.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Hey Soul Sister.mp3">
       <PackagePath>Assets\Audio\Jazz\Hey Soul Sister.mp3</PackagePath>
@@ -145,14 +142,17 @@
     <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Light My Fire.mp3">
       <PackagePath>Assets\Audio\Electronic\Light My Fire.mp3</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Jar of Hearts.mp3">
+      <PackagePath>Assets\Audio\Jazz\Jar of Hearts.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\A Day To Be Alone.mp3">
       <PackagePath>Assets\Audio\Pop\A Day To Be Alone.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\Marry Me.mp3">
       <PackagePath>Assets\Audio\Pop\Marry Me.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\song9.mp3">
-      <PackagePath>Assets\Audio\Pop\song9.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\Song9.mp3">
+      <PackagePath>Assets\Audio\Pop\Song9.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Harvest Moon.mp3">
       <PackagePath>Assets\Audio\Rap\Harvest Moon.mp3</PackagePath>
@@ -163,8 +163,8 @@
     <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Flight Attendant.mp3">
       <PackagePath>Assets\Audio\Rock\Flight Attendant.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\song16.mp3">
-      <PackagePath>Assets\Audio\Rock\song16.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Song16.mp3">
+      <PackagePath>Assets\Audio\Rock\Song16.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

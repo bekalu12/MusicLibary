@@ -79,7 +79,7 @@ namespace MusicLibraryApplication.Model
 
 
             musicCollection.Add(new SongItem("Beautiful", "Akon", "Album1", MusicGenre.Country, new DateTime(2000, 12, 25)));
-            musicCollection.Add(new SongItem("Song3", "Frank Sinatra", "Greatest Hits", MusicGenre.Country, new DateTime(2015, 12, 25)));
+            musicCollection.Add(new SongItem("Song5", "Frank Sinatra", "Greatest Hits", MusicGenre.Country, new DateTime(2015, 12, 25)));
             musicCollection.Add(new SongItem("If I Were A Boy (remix)", "Beyonce", "Album3", MusicGenre.Country, new DateTime(2015, 12, 25)));
 
             musicCollection.Add(new SongItem("A Day To Be Alone", "One Less Reason", "Everydaylife", MusicGenre.Pop, new DateTime(2015, 12, 25)));
@@ -93,11 +93,11 @@ namespace MusicLibraryApplication.Model
             musicCollection.Add(new SongItem("Flight Attendant", "Josh Rouse", "Unknown", MusicGenre.Rock, new DateTime(2015, 12, 25)));
 
 
-            musicCollection.Add(new SongItem("Antything Can Happen", "Hans zimmer", "The Holiday", MusicGenre.Electronic, new DateTime(2015, 12, 25)));
-            musicCollection.Add(new SongItem("Light My Fire", "Hans zimmer", "The Holiday", MusicGenre.Electronic, new DateTime(2015, 12, 25)));
+            musicCollection.Add(new SongItem("Antything Can Happen", "Hans Zimmer", "The Holiday", MusicGenre.Electronic, new DateTime(2015, 12, 25)));
+            musicCollection.Add(new SongItem("Light My Fire", "Hans Zimmer", "The Holiday", MusicGenre.Electronic, new DateTime(2015, 12, 25)));
 
 
-            musicCollection.Add(new SongItem("Jar of Heaerts", "Christina Perri", "Unknown", MusicGenre.Jazz, new DateTime(2015, 12, 25)));
+            musicCollection.Add(new SongItem("Jar of Hearts", "Christina Perri", "Unknown", MusicGenre.Jazz, new DateTime(2015, 12, 25)));
             musicCollection.Add(new SongItem("Hey Soul Sister", "Various Artists", "Unknown", MusicGenre.Jazz, new DateTime(2015, 12, 25)));
 
 
