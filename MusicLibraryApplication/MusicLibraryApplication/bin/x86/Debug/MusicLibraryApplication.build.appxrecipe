@@ -118,26 +118,26 @@
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\Strangers in the night.mp3">
       <PackagePath>Assets\Audio\Classical\Strangers in the night.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3">
-      <PackagePath>Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I%27ll Be Home For Christmas.mp3">
+      <PackagePath>Assets\Audio\Classical\I%27ll Be Home For Christmas.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I Get A Kick Out Of You.mp3">
       <PackagePath>Assets\Audio\Classical\I Get A Kick Out Of You.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\song3.mp3">
-      <PackagePath>Assets\Audio\Country\song3.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Song3.mp3">
+      <PackagePath>Assets\Audio\Country\Song3.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Akon - Beautiful.mp3">
-      <PackagePath>Assets\Audio\Country\Akon - Beautiful.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Beautiful.mp3">
+      <PackagePath>Assets\Audio\Country\Beautiful.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\If I were a boy remix.mp3">
-      <PackagePath>Assets\Audio\Country\If I were a boy remix.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\If I Were A Boy Remix.mp3">
+      <PackagePath>Assets\Audio\Country\If I Were A Boy Remix.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Jar of Heaerts.mp3">
-      <PackagePath>Assets\Audio\Jazz\Jar of Heaerts.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Jar of Hearts.mp3">
+      <PackagePath>Assets\Audio\Jazz\Jar of Hearts.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Hey, Soul Siste.mp3">
-      <PackagePath>Assets\Audio\Jazz\Hey, Soul Siste.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Hey, Soul Sister.mp3">
+      <PackagePath>Assets\Audio\Jazz\Hey, Soul Sister.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Antything Can Happen.mp3">
       <PackagePath>Assets\Audio\Electronic\Antything Can Happen.mp3</PackagePath>
@@ -151,8 +151,8 @@
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\Marry Me.mp3">
       <PackagePath>Assets\Audio\Pop\Marry Me.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\song9.mp3">
-      <PackagePath>Assets\Audio\Pop\song9.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\Song9.mp3">
+      <PackagePath>Assets\Audio\Pop\Song9.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Harvest Moon.mp3">
       <PackagePath>Assets\Audio\Rap\Harvest Moon.mp3</PackagePath>
@@ -160,11 +160,11 @@
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Heart Of Gold.mp3">
       <PackagePath>Assets\Audio\Rap\Heart Of Gold.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Flight Attendan.mp3">
-      <PackagePath>Assets\Audio\Rock\Flight Attendan.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Flight Attendant.mp3">
+      <PackagePath>Assets\Audio\Rock\Flight Attendant.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\song16.mp3">
-      <PackagePath>Assets\Audio\Rock\song16.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Song16.mp3">
+      <PackagePath>Assets\Audio\Rock\Song16.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

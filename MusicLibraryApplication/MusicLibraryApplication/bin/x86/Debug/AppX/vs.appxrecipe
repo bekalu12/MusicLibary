@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-27T02:28:12.870</Modified>
+      <Modified>2022-02-27T16:42:32.172</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.exe">
       <PackagePath>entrypoint\MusicLibraryApplication.exe</PackagePath>
-      <Modified>2022-02-27T02:28:12.355</Modified>
+      <Modified>2022-02-27T16:42:31.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -156,32 +156,32 @@
       <PackagePath>Assets\Audio\Classical\Strangers in the night.mp3</PackagePath>
       <Modified>2022-02-25T16:45:22.122</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3">
-      <PackagePath>Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I%27ll Be Home For Christmas.mp3">
+      <PackagePath>Assets\Audio\Classical\I%27ll Be Home For Christmas.mp3</PackagePath>
       <Modified>2022-02-25T16:45:22.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I Get A Kick Out Of You.mp3">
       <PackagePath>Assets\Audio\Classical\I Get A Kick Out Of You.mp3</PackagePath>
       <Modified>2022-02-25T16:45:21.989</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\song3.mp3">
-      <PackagePath>Assets\Audio\Country\song3.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Song3.mp3">
+      <PackagePath>Assets\Audio\Country\Song3.mp3</PackagePath>
       <Modified>2022-02-24T02:35:10.502</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Akon - Beautiful.mp3">
-      <PackagePath>Assets\Audio\Country\Akon - Beautiful.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Beautiful.mp3">
+      <PackagePath>Assets\Audio\Country\Beautiful.mp3</PackagePath>
       <Modified>2022-02-25T16:45:22.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\If I were a boy remix.mp3">
-      <PackagePath>Assets\Audio\Country\If I were a boy remix.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\If I Were A Boy Remix.mp3">
+      <PackagePath>Assets\Audio\Country\If I Were A Boy Remix.mp3</PackagePath>
       <Modified>2022-02-25T16:45:22.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Jar of Heaerts.mp3">
-      <PackagePath>Assets\Audio\Jazz\Jar of Heaerts.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Jar of Hearts.mp3">
+      <PackagePath>Assets\Audio\Jazz\Jar of Hearts.mp3</PackagePath>
       <Modified>2022-02-27T01:54:42.840</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Hey, Soul Siste.mp3">
-      <PackagePath>Assets\Audio\Jazz\Hey, Soul Siste.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Hey, Soul Sister.mp3">
+      <PackagePath>Assets\Audio\Jazz\Hey, Soul Sister.mp3</PackagePath>
       <Modified>2022-02-27T01:54:42.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Antything Can Happen.mp3">
@@ -200,8 +200,8 @@
       <PackagePath>Assets\Audio\Pop\Marry Me.mp3</PackagePath>
       <Modified>2022-02-25T16:45:22.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\song9.mp3">
-      <PackagePath>Assets\Audio\Pop\song9.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\Song9.mp3">
+      <PackagePath>Assets\Audio\Pop\Song9.mp3</PackagePath>
       <Modified>2022-02-24T02:35:11.333</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Harvest Moon.mp3">
@@ -212,12 +212,12 @@
       <PackagePath>Assets\Audio\Rap\Heart Of Gold.mp3</PackagePath>
       <Modified>2022-02-25T16:45:22.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Flight Attendan.mp3">
-      <PackagePath>Assets\Audio\Rock\Flight Attendan.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Flight Attendant.mp3">
+      <PackagePath>Assets\Audio\Rock\Flight Attendant.mp3</PackagePath>
       <Modified>2022-02-27T01:54:42.884</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\song16.mp3">
-      <PackagePath>Assets\Audio\Rock\song16.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Song16.mp3">
+      <PackagePath>Assets\Audio\Rock\Song16.mp3</PackagePath>
       <Modified>2022-02-25T16:45:22.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Properties\Default.rd.xml">
@@ -230,11 +230,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-27T02:28:12.234</Modified>
+      <Modified>2022-02-27T16:42:31.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-02-27T02:28:12.234</Modified>
+      <Modified>2022-02-27T16:42:31.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -242,11 +242,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-27T02:14:08.895</Modified>
+      <Modified>2022-02-27T16:41:04.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burro\Documents\GitHub\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Core\MusicLibraryApplication.exe">
       <PackagePath>MusicLibraryApplication.exe</PackagePath>
-      <Modified>2022-02-27T02:28:12.866</Modified>
+      <Modified>2022-02-27T16:42:32.167</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
