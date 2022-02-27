@@ -238,14 +238,17 @@ namespace MusicLibraryApplication
             if (ListCategory.Visibility == Visibility.Visible)
             {
                 ListCategory.Visibility = Visibility.Collapsed;
+                BackButton.Visibility = Visibility.Collapsed;
             }
             else if (ArtistCategory.Visibility == Visibility.Visible)
             {
                 ArtistCategory.Visibility = Visibility.Collapsed;
+                BackButton.Visibility = Visibility.Collapsed;
             }
             else if (DecadeCategory.Visibility == Visibility.Visible)
             {
                 DecadeCategory.Visibility = Visibility.Collapsed;
+                BackButton.Visibility = Visibility.Collapsed;
             }
         }
 
