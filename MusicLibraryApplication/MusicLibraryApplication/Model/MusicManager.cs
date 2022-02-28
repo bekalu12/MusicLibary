@@ -36,7 +36,13 @@ namespace MusicLibraryApplication.Model
             var allMusic = GetMusic();
             var filteredMusic = allMusic.Where(item => item.SongTitle == title).Distinct().ToList();
 
-            filteredMusic.ForEach(item => collection.Add(item));
+            filteredMusic.ForEach(item =>
+            {
+                if (!collection.Any(song => song.SongTitle == item.SongTitle))
+                {
+                    collection.Add(item);
+                }
+            });
         }
 
         // Filters songs in Observable Collection by genre
@@ -104,12 +110,7 @@ namespace MusicLibraryApplication.Model
             return musicCollection;
         }
 
-        // This  method to retreive the meta data of the file 
-        private static void GetMusicTags(ObservableCollection<SongItem> collection, MusicGenre genre)
-        {
-           
-            Metadata tag = new Metadata();
-            tag.ReadFileMetaData();
-        }
+      
+   
     }
 }
