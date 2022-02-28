@@ -260,7 +260,7 @@ namespace MusicLibraryApplication
         {
             var mySelectedSong = (SongItem)e.ClickedItem;
             MusicManager.GetSelectedMusicByTitle(SelectedMusic, mySelectedSong.SongTitle);
-            MusicMedia.Source = new Uri(BaseUri, mySelectedSong.AudioFile);
+
         }
 
         private void MyMusicCollection_ItemClick(object sender, ItemClickEventArgs e)
