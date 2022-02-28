@@ -1,1 +1,1 @@
-C:\Yassmin'z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\MusicLibraryApplication.csproj;x86
+C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\MusicLibraryApplication.csproj;x86

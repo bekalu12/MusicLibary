@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-KSPTPGF</Machine>
-    <WindowsUser>crazy</WindowsUser>
+    <Machine>WINAPPOVJUWEWM9</Machine>
+    <WindowsUser>samuel.l.fitzsimmons</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>74c39ff0-f226-4bbd-b2c3-7bb6b36926b6</PackageIdentityName>
     <PackageIdentityPublisher>CN=bekal</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>B8C97936CB9A4595E9CFE21177419C43AF563C0C140097BE6512FF11BBA30D86</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>FB383BFA9D60DEE183AFF711B15338222E97BA4B605DA526ADBE028E9D0DC20C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>74c39ff0-f226-4bbd-b2c3-7bb6b36926b6_1.0.0.0_x86__392g711scdgn6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>74c39ff0-f226-4bbd-b2c3-7bb6b36926b6_392g711scdgn6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>74c39ff0-f226-4bbd-b2c3-7bb6b36926b6</RegisteredPackageID>
@@ -27,280 +27,280 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-27T17:38:07.262</Modified>
+      <Modified>2022-02-28T04:46:08.068</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.exe">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.exe">
       <PackagePath>entrypoint\MusicLibraryApplication.exe</PackagePath>
-      <Modified>2022-02-27T17:38:06.371</Modified>
+      <Modified>2022-02-28T04:46:06.204</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2021-02-05T08:15:46.000</Modified>
+      <Modified>2021-02-05T09:15:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2020-12-02T11:52:00.000</Modified>
+      <Modified>2020-12-02T12:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Albums.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Albums.png">
       <PackagePath>Assets\Albums.png</PackagePath>
-      <Modified>2022-02-27T04:58:26.425</Modified>
+      <Modified>2022-02-26T23:38:14.307</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Artists\Artist.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Artists\Artist.png">
       <PackagePath>Assets\Images\Artists\Artist.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.221</Modified>
+      <Modified>2022-02-27T20:25:32.283</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Decades\Aughts.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Decades\Aughts.png">
       <PackagePath>Assets\Images\Decades\Aughts.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.222</Modified>
+      <Modified>2022-02-27T20:25:32.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Decades\Eighties.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Decades\Eighties.png">
       <PackagePath>Assets\Images\Decades\Eighties.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.223</Modified>
+      <Modified>2022-02-27T20:25:32.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Decades\Ninties.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Decades\Ninties.png">
       <PackagePath>Assets\Images\Decades\Ninties.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.223</Modified>
+      <Modified>2022-02-27T20:25:32.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Decades\Seventies.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Decades\Seventies.png">
       <PackagePath>Assets\Images\Decades\Seventies.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.224</Modified>
+      <Modified>2022-02-27T20:25:32.286</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Decades\Sixties.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Decades\Sixties.png">
       <PackagePath>Assets\Images\Decades\Sixties.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.224</Modified>
+      <Modified>2022-02-27T20:25:32.287</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Decades\Teens.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Decades\Teens.png">
       <PackagePath>Assets\Images\Decades\Teens.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.225</Modified>
+      <Modified>2022-02-27T20:25:32.287</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Decades\Twenties.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Decades\Twenties.png">
       <PackagePath>Assets\Images\Decades\Twenties.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.225</Modified>
+      <Modified>2022-02-27T20:25:32.289</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Classical.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Classical.png">
       <PackagePath>Assets\Images\Genres\Classical.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.226</Modified>
+      <Modified>2022-02-26T23:38:14.968</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Country.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Country.png">
       <PackagePath>Assets\Images\Genres\Country.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.226</Modified>
+      <Modified>2022-02-26T23:38:14.968</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Electronic.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Electronic.png">
       <PackagePath>Assets\Images\Genres\Electronic.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.227</Modified>
+      <Modified>2022-02-26T23:38:14.969</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Jazz.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Jazz.png">
       <PackagePath>Assets\Images\Genres\Jazz.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.228</Modified>
+      <Modified>2022-02-26T23:38:14.969</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Pop.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Pop.png">
       <PackagePath>Assets\Images\Genres\Pop.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.229</Modified>
+      <Modified>2022-02-26T23:38:14.969</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Rap.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Rap.png">
       <PackagePath>Assets\Images\Genres\Rap.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.230</Modified>
+      <Modified>2022-02-26T23:38:14.970</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Rock.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\Genres\Rock.png">
       <PackagePath>Assets\Images\Genres\Rock.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.231</Modified>
+      <Modified>2022-02-26T23:38:14.971</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\logo.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\logo.png">
       <PackagePath>Assets\Images\logo.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.232</Modified>
+      <Modified>2022-02-26T23:38:14.972</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\MusicNote.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Images\MusicNote.png">
       <PackagePath>Assets\Images\MusicNote.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.232</Modified>
+      <Modified>2022-02-26T23:38:14.972</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2022-02-27T04:58:27.233</Modified>
+      <Modified>2022-02-26T23:38:14.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-27T04:58:27.234</Modified>
+      <Modified>2022-02-26T23:38:14.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-27T04:58:27.234</Modified>
+      <Modified>2022-02-26T23:38:14.974</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-27T04:58:27.234</Modified>
+      <Modified>2022-02-26T23:38:14.974</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-27T04:58:27.235</Modified>
+      <Modified>2022-02-26T23:38:14.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-27T04:58:27.235</Modified>
+      <Modified>2022-02-26T23:38:14.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-27T04:58:27.236</Modified>
+      <Modified>2022-02-26T23:38:14.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\Strangers In The Night.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\Strangers In The Night.mp3">
       <PackagePath>Assets\Audio\Classical\Strangers In The Night.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:26.541</Modified>
+      <Modified>2022-02-26T23:38:14.406</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3">
       <PackagePath>Assets\Audio\Classical\I%27ll Be Home for Christmas.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:26.505</Modified>
+      <Modified>2022-02-26T23:38:14.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I Get A Kick Out Of You.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Classical\I Get A Kick Out Of You.mp3">
       <PackagePath>Assets\Audio\Classical\I Get A Kick Out Of You.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:26.465</Modified>
+      <Modified>2022-02-26T23:38:14.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Song5.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Song5.mp3">
       <PackagePath>Assets\Audio\Country\Song5.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:26.686</Modified>
+      <Modified>2022-02-27T20:25:32.130</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Beautiful.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\Beautiful.mp3">
       <PackagePath>Assets\Audio\Country\Beautiful.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:26.582</Modified>
+      <Modified>2022-02-27T20:25:32.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\If I Were A Boy %28remix%29.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Country\If I Were A Boy %28remix%29.mp3">
       <PackagePath>Assets\Audio\Country\If I Were A Boy %28remix%29.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:26.657</Modified>
+      <Modified>2022-02-27T20:25:32.097</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Hey Soul Sister.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Hey Soul Sister.mp3">
       <PackagePath>Assets\Audio\Jazz\Hey Soul Sister.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:26.777</Modified>
+      <Modified>2022-02-27T20:25:32.204</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Antything Can Happen.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Antything Can Happen.mp3">
       <PackagePath>Assets\Audio\Electronic\Antything Can Happen.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:26.694</Modified>
+      <Modified>2022-02-26T23:38:14.565</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Light My Fire.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Electronic\Light My Fire.mp3">
       <PackagePath>Assets\Audio\Electronic\Light My Fire.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:26.709</Modified>
+      <Modified>2022-02-26T23:38:14.579</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Jar of Hearts.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Jazz\Jar of Hearts.mp3">
       <PackagePath>Assets\Audio\Jazz\Jar of Hearts.mp3</PackagePath>
-      <Modified>2022-02-27T17:30:58.275</Modified>
+      <Modified>2022-02-27T20:25:32.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\A Day To Be Alone.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\A Day To Be Alone.mp3">
       <PackagePath>Assets\Audio\Pop\A Day To Be Alone.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:26.896</Modified>
+      <Modified>2022-02-26T23:38:14.716</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\Marry Me.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\Marry Me.mp3">
       <PackagePath>Assets\Audio\Pop\Marry Me.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:26.938</Modified>
+      <Modified>2022-02-26T23:38:14.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\Song9.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Pop\Song9.mp3">
       <PackagePath>Assets\Audio\Pop\Song9.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:26.987</Modified>
+      <Modified>2022-02-26T23:38:14.784</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Harvest Moon.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Harvest Moon.mp3">
       <PackagePath>Assets\Audio\Rap\Harvest Moon.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:27.081</Modified>
+      <Modified>2022-02-26T23:38:14.859</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Heart Of Gold.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rap\Heart Of Gold.mp3">
       <PackagePath>Assets\Audio\Rap\Heart Of Gold.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:27.122</Modified>
+      <Modified>2022-02-26T23:38:14.891</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Flight Attendant.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Flight Attendant.mp3">
       <PackagePath>Assets\Audio\Rock\Flight Attendant.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:27.163</Modified>
+      <Modified>2022-02-27T20:25:32.282</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Song16.mp3">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Assets\Audio\Rock\Song16.mp3">
       <PackagePath>Assets\Audio\Rock\Song16.mp3</PackagePath>
-      <Modified>2022-02-27T04:58:27.219</Modified>
+      <Modified>2022-02-26T23:38:14.966</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-02-27T04:58:27.245</Modified>
+      <Modified>2022-02-26T23:38:14.983</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.xr.xml">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MusicLibraryApplication.xr.xml">
       <PackagePath>MusicLibraryApplication.xr.xml</PackagePath>
-      <Modified>2022-02-27T04:58:33.828</Modified>
+      <Modified>2022-02-28T04:46:06.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-27T17:38:06.245</Modified>
+      <Modified>2022-02-28T04:46:06.051</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-02-27T17:38:06.244</Modified>
+      <Modified>2022-02-28T04:46:06.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2020-12-02T09:52:06.000</Modified>
+      <Modified>2020-12-02T10:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-27T17:38:06.702</Modified>
+      <Modified>2022-02-28T04:46:06.745</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Yassmin%27z\KalAcademy\Assignments\Assignment_1_repo\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Core\MusicLibraryApplication.exe">
+    <AppxPackagedFile Include="C:\Users\samuel.l.fitzsimmons\Source\Repos\MusicLibary\MusicLibraryApplication\MusicLibraryApplication\bin\x86\Debug\Core\MusicLibraryApplication.exe">
       <PackagePath>MusicLibraryApplication.exe</PackagePath>
-      <Modified>2022-02-27T17:38:07.251</Modified>
+      <Modified>2022-02-28T04:46:08.047</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\samuel.l.fitzsimmons\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.29713.2</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\samuel.l.fitzsimmons\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\samuel.l.fitzsimmons\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.29713.2</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\samuel.l.fitzsimmons\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\samuel.l.fitzsimmons\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.29713.2</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\samuel.l.fitzsimmons\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\samuel.l.fitzsimmons\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.29301.2</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\samuel.l.fitzsimmons\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\samuel.l.fitzsimmons\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.29301.2</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\samuel.l.fitzsimmons\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\samuel.l.fitzsimmons\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.29301.2</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\samuel.l.fitzsimmons\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
