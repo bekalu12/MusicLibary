@@ -273,23 +273,12 @@ namespace MusicLibraryApplication
             MusicMedia.Play();
         }
 
-        private void MyCollectio_Click(object sender, RoutedEventArgs e)
-        {
-            // I need to store all checked items in a list or collection 
-        }
-
-
-        //private void PlayArea_ItemClick(object sender, ItemClickEventArgs e)
-        // {
-
-        // }
-
-        private void buttonPlay_Click(object sender, RoutedEventArgs e)
+        private void ButtonPlay_Click(object sender, RoutedEventArgs e)
         {
             MusicMedia.Play();
         }
 
-        private void buttonBack_Click(object sender, RoutedEventArgs e)
+        private void ButtonBack_Click(object sender, RoutedEventArgs e)
         {
             int currentSelectedSongIndex = SelectedMusic.IndexOf(currentSongSelected);
             if (currentSelectedSongIndex !=  0)
@@ -305,12 +294,12 @@ namespace MusicLibraryApplication
            
 
         
-        private void buttonStop_Click(object sender, RoutedEventArgs e)
+        private void ButtonStop_Click(object sender, RoutedEventArgs e)
         {
             MusicMedia.Stop();
         }
 
-        private void buttonNext_Click(object sender, RoutedEventArgs e)
+        private void ButtonNext_Click(object sender, RoutedEventArgs e)
         {
             int currentSelectedSongIndex = SelectedMusic.IndexOf(currentSongSelected);
             if (SelectedMusic.Count != currentSelectedSongIndex + 1)
